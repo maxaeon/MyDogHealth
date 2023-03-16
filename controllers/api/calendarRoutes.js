@@ -1,11 +1,11 @@
 const router = require("express").Router();
-const { Calendar, Appointments } = require("../../models");
+const { Calendar, Appointment } = require("../../models");
 const withAuth = require("../../utils/auth");
 
 
 router.get('/', async (req, res) => {
     const allCalendars = Calendar.findAll({
-        include: [{ model: Appointments }]
+        include: [{ model: Appointment }]
     })
     res.status(200).json(allCalendars)
 
