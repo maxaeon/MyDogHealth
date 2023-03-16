@@ -1,12 +1,12 @@
 const router = require("express").Router();
-const { Garden, User } = require("../../models");
+const { Appointment, User } = require("../../models");
 // const withAuth = require('../../utils/auth');
 
-// CREATE a Garden
+// CREATE an Appointment
 router.post("/", async (req, res) => {
   try {
     const { title, description } = req.body
-    const newGarden = await Garden.create({
+    const newAppointment = await Appointment.create({
       title,
       description,
       user_id: req.session.user_id
