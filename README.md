@@ -7,7 +7,7 @@ This project will allow users to keep track of information relevant to their dog
 To be deployed on heroku 
 
 ## Credits
-Created by MaxAeon
+This sandbox was created by MaxAeon
 
 ## License
 MIT License
