@@ -6,6 +6,8 @@ const veterinarianRoutes = require('./veterinarianRoutes')
 const medicationRoutes = require('./medicationRoutes')
 const foodRoutes = require('./foodRoutes')
 const conditionRoutes = require('./conditionRoutes')
+const postRoutes = require('./postRoutes')
+const commentRoutes = require(./commentRoutes')
 
 // route.use('/dogs',dogsRoutes)
 // collect endpoints and prefix them
@@ -25,6 +27,10 @@ router.use("/medication", medicationRoutes);
 router/use("/food", foodRoutes);
 //  .api/history/historyRoutes
 router/use("/condition", conditionRoutes);
+//  .api/comment/commentRoutes
+router/use("/comment", commentRoutes);
+//  .api/post/postRoutes
+router/use("/post", postRoutes);
 
 
 module.exports = router;
