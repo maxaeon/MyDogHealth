@@ -1,18 +1,18 @@
-# My Dog Health
+# My Dog Health Sandbox
 
 ## Description
-This project will allow users to keep track of information relevant to their dog's well-being.
+This project will allow users to keep track of information relevant to their dog's well-being. It is currently undergoing development. See more at dog6501.wordpress.com 
 
 ## How to Use
 To be deployed on heroku 
 
 ## Credits
-This sandbox was created by MaxAeon
+This sandbox was created by MaxAeon, to contribute toward The Dog Group's 'My Dog Health App', along with Kamal, Feroz, and Chris. 
 
 ## License
 MIT License
 
-Copyright (c) [2023] MaxAeon
+Copyright (c) [2023] MaxAeon 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
