@@ -78,7 +78,7 @@ Appointment.init(
         timestamps: false,
         freezeTableName: true,
         underscored: true,
-        modelName: 'Appointment',
+        modelName: 'appointment',
     }
 );
 
