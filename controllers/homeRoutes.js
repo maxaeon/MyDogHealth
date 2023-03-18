@@ -39,7 +39,7 @@ router.get("/dog/:id", async (req, res) => {
   }
 });
 
-/*
+
 
 //veterinarian
 
@@ -89,8 +89,6 @@ router.get("/appointment/:id", async (req, res) => {
   }
 });
 
-
-*/
 
 // withAuth() calls next() anonymous fx OR res.redirect("/login")
 router.get("/add-post", async (req, res) => {
@@ -146,8 +144,6 @@ router.get("/edit-post/:id",(req, res) => {
       res.status(500).json(err);
     });
 });
-
-/*
 
 //medication
 
@@ -220,8 +216,6 @@ router.get("/condition/:id", async (req, res) => {
     res.status(500).json(err);
   }
 });
-
-*/
 
 
 router.get("/login", (req, res) => {
