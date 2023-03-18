@@ -9,7 +9,7 @@ This project will allow users to keep track of information relevant to their dog
 To be deployed on heroku 
 
 ## Credits
-This sandbox was created by MaxAeon, to contribute toward The Dog Group's 'My Dog Health App', along with Kamal, Feroz, and Chris. 
+This sandbox was created by MaxAeon, Kamal, Feroz, and Chris. 
 
 ## License
 MIT License
