@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Appointment Schedule</title>
+  <style>
+    body {
+      font-family: Arial;
+      background-color: white;
+    }
+    .container {
+      width: 250px;
+      border: 1px solid ;
+      border-radius: 30px;
+      margin: 50px auto ;
+      background-color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .button-container {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    button {
+      width: 70px;
+      padding: 5px 10px;
+      border-radius: 0px;
+      border: none;
+      color: white;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    .edit {
+      background-color: blue;
+    }
+    .delete {
+      background-color: blue;
+    }
+    .add-new {
+      margin: 0 auto;
+      display: block;
+      background-color: blue;
+    }
+    .input-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 5px;
+      margin-top: 20px;
+    }
+    label {
+      font-size: 16px;
+      margin-bottom: 5px;
+      text-align: left;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 5px;
+      border-radius: 0px;
+      border: 1px solid blue;
+      margin-bottom: 5px;
+      font-size: 16px;
+    }
+     textarea {
+        width: 100%;
+        padding: 0px;
+        border-radius: 0px;
+        border: 1px solid blue;
+        margin-bottom: 10px;
+        font-size: 16px;
+        
+      }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Medication Schedule</h2>
+    <div class="input-container">
+      <label for="type of appointment">Type of appointment:</label>
+      <input type="text" id="type of appointment" placeholder="">
+
+      <label for="date">Date:</label>
+      <input type="text" id="date" placeholder="">
+
+      <label for="time">Time:</label>
+      <input type="text" id="time" placeholder="">
+
+      <label for="length">Length:</label>
+      <input type="text" id="length" placeholder="">
+
+      <label for="location">Location:</label>
+      <input type="text" id="location" placeholder="">
+      
+      <label for="dogs">Dog(s):</label>
+      <input type="text" id="dogs" placeholder="">
+      
+
+      
+      <label>Notes:</label>
+        <textarea name="notes" rows="3" ></textarea>
+    </div>
+    <div class="button-container">
+      <button class="edit">save</button>
+      <button class="delete">Cancel</button>
+    </div>
+    
+</body>
+</html>
