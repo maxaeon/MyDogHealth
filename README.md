@@ -1,6 +1,6 @@
 # My Dog Health App
 
-![pawprinticon](https://user-images.githubusercontent.com/87254760/226126461-8dc15a6d-fc27-4a41-961b-b8f1cd195f9b.png)
+![image](https://user-images.githubusercontent.com/87254760/226127173-af2127bf-3554-43fc-892f-058471ac9092.png)
 
 ## Description
 This project will allow users to keep track of information relevant to their dog's well-being. It is currently undergoing development. See more at dog6501.wordpress.com 
