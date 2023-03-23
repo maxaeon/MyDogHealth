@@ -1,3 +1,0 @@
-DROP DATABASE IF EXISTS kennel_db;
-
-CREATE DATABASE kennel_db;
