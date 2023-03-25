@@ -2,19 +2,19 @@
 
 
 
---HANDLER/OWNER INFO SQL
+--OWNER INFO SQL
 
-CREATE TABLE `db_handler`.`tbl_handler` (`HandlerId` INT(15) NOT NULL AUTO_INCREMENT , `fldhandlerFirstName` VARCHAR(25) NOT NULL , `fldhandlerLastName` VARCHAR(25) NOT NULL , `fldhandlerEmail` VARCHAR(50) NOT NULL , `fldhandlerPassword` VARCHAR(25) NOT NULL , `fldhandlerPhone` INT(15) NOT NULL , `fldhandlerAddress` VARCHAR(50) NOT NULL , `fldhandlerDog` VARCHAR(50) NOT NULL , `fldhandlerAppointment` VARCHAR(50) NOT NULL , `fldhandlerVeterinarian` VARCHAR(50) NOT NULL , `fldhandlerNotes` VARCHAR(150) NOT NULL , PRIMARY KEY (`HandlerId`)) ENGINE = InnoDB;
+CREATE TABLE `db_owner`.`tbl_owner` (`OwnerId` INT(15) NOT NULL AUTO_INCREMENT , `fldownerFirstName` VARCHAR(25) NOT NULL , `fldownerLastName` VARCHAR(25) NOT NULL , `fldownerEmail` VARCHAR(50) NOT NULL , `fldownerPassword` VARCHAR(25) NOT NULL , `fldownerPhone` INT(15) NOT NULL , `fldownerAddress` VARCHAR(50) NOT NULL , `fldownerDog` VARCHAR(50) NOT NULL , `fldownerAppointment` VARCHAR(50) NOT NULL , `fldownerVeterinarian` VARCHAR(50) NOT NULL , `fldownerNotes` VARCHAR(150) NOT NULL , PRIMARY KEY (`OwnerId`)) ENGINE = InnoDB;
 
-SELECT * FROM `tbl_handler` WHERE 1
+SELECT * FROM `tbl_owner` WHERE 1
 
-SELECT `HandlerId`, `fldhandlerFirstName`, `fldhandlerLastName`, `fldhandlerEmail`, `fldhandlerPassword`, `fldhandlerPhone`, `fldhandlerAddress`, `fldhandlerDog`, `fldhandlerAppointment`, `fldhandlerVeterinarian`, `fldhandlerNotes` FROM `tbl_handler` WHERE 1
+SELECT `OwnerId`, `fldownerFirstName`, `fldownerLastName`, `fldownerEmail`, `fldownerPassword`, `fldownerPhone`, `fldownerAddress`, `fldownerDog`, `fldownerAppointment`, `fldownerVeterinarian`, `fldownerNotes` FROM `tbl_owner` WHERE 1
 
-INSERT INTO `tbl_handler`(`HandlerId`, `fldhandlerFirstName`, `fldhandlerLastName`, `fldhandlerEmail`, `fldhandlerPassword`, `fldhandlerPhone`, `fldhandlerAddress`, `fldhandlerDog`, `fldhandlerAppointment`, `fldhandlerVeterinarian`, `fldhandlerNotes`) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]','[value-5]','[value-6]','[value-7]','[value-8]','[value-9]','[value-10]','[value-11]')
+INSERT INTO `tbl_owner`(`OwnerId`, `fldownerFirstName`, `fldownerLastName`, `fldownerEmail`, `fldownerPassword`, `fldownerPhone`, `fldownerAddress`, `fldownerDog`, `fldownerAppointment`, `fldownerVeterinarian`, `fldownerNotes`) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]','[value-5]','[value-6]','[value-7]','[value-8]','[value-9]','[value-10]','[value-11]')
 
-UPDATE `tbl_handler` SET `HandlerId`='[value-1]',`fldhandlerFirstName`='[value-2]',`fldhandlerLastName`='[value-3]',`fldhandlerEmail`='[value-4]',`fldhandlerPassword`='[value-5]',`fldhandlerPhone`='[value-6]',`fldhandlerAddress`='[value-7]',`fldhandlerDog`='[value-8]',`fldhandlerAppointment`='[value-9]',`fldhandlerVeterinarian`='[value-10]',`fldhandlerNotes`='[value-11]' WHERE 1
+UPDATE `tbl_owner` SET `OwnerId`='[value-1]',`fldownerFirstName`='[value-2]',`fldownerLastName`='[value-3]',`fldownerEmail`='[value-4]',`fldownerPassword`='[value-5]',`fldownerPhone`='[value-6]',`fldownerAddress`='[value-7]',`fldownerDog`='[value-8]',`fldownerAppointment`='[value-9]',`fldownerVeterinarian`='[value-10]',`fldownerNotes`='[value-11]' WHERE 1
 
-DELETE FROM `tbl_handler` WHERE 0
+DELETE FROM `tbl_owner` WHERE 0
 
 
 
