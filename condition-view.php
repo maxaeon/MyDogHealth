@@ -74,7 +74,7 @@
   <section>
   <div class="row m-0">
     <div class="col-lg-3 bottom-btn">
-        <a href="home.html">
+        <a href="dog-view.php">
           <div class="text-center">
             <img src="images/pawprinticon.png" class="rounded pt-3" alt="...">
           </div>
