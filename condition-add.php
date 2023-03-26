@@ -11,14 +11,14 @@
 </head>
 ​
 <body>
-​
+​ 
   <!-- header part start -->
   <section id="header">
     <div class="hamburger-menu">
-      <button class="hamburger-toggle">
+      <button class="hamburger-toggle"><a href="menu.html">
         <span class="hamburger-bar"></span>
         <span class="hamburger-bar"></span>
-        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span></a>
       </button>
     </div>
   </section>
@@ -39,7 +39,7 @@
     <div class="container text-center">
       <div class="row">
         <div class="col-lg-12">
-          <h6> INFORMATION </h6>
+          <h6> My Dog's Conditions</h6>
         </div>
       </div>
     </div>
@@ -52,38 +52,29 @@
             <div class="info">
               <div class="text-center">
 <fieldset>
-<legend>Add Dog</legend>
+<legend>Add Condition</legend>
 <form name="frmDog" method="post" action="dog-create.php">
 
 <p>
-<label for="flddogName">Dog Name</label>
-<input type="text" class="form-control" name="txtdogName" id="txtdogName">
+<label for="fldconditionName">Condition Name</label>
+<input type="text" class="form-control" name="txtconditionName" id="txtconditionName">
 </p>
 <p>
-  <label for="flddogDOB">Dog Date of Birth</label>
-  <input type="date" class="form-control" name="txtdogDOB" id="txtdogDOB">
+  <label for="fldconditionDateDiagnosed">Date Diagnosed</label>
+  <input type="date" class="form-control" name="txtconditionDateDiagnosed" id="txtconditionDateDiagnosed">
   </p><p>
-    <label for="flddogAgeInYears">Dog Age in Years</label>
-    <input type="text" class="form-control" name="txtdogAgeInYears" id="txtdogAgeInYears">
+    <label for="fldconditionDoctor">Doctor</label>
+    <input type="text" class="form-control" name="txtconditionDoctor" id="txtconditionDoctor">
     </p><p>
-      <label for="flddogBreed">Dog Breed</label>
-      <input type="text" class="form-control" name="txtdogBreed" id="txtdogBreed">
+      <label for="fldconditionTreatment">Treatment Plan</label>
+      <input type="text" class="form-control" name="txtfldconditionTreatment" id="txtfldconditionTreatment">
       </p><p>
-        <label for="flddogSex">Dog Sex</label>
-        <input type="boolean" class="form-control" name="txtdogSex" id="txtdogSex">
+        <label for="fldconditionPrognosis">Prognosis</label>
+        <input type="boolean" class="form-control" name="txtconditionPrognosis" id="txtconditionPrognosis">
         </p><p>
-          <label for="flddogWeightInPounds">Dog Weight in Pounds</label>
-          <input type="text" class="form-control" name="txtdogWeightInPounds" id="txtdogWeightInPounds">
-          </p><p>
-            <label for="flddogSterilized">Spayed or Neutered?</label>
-            <input type="boolean" class="form-control" name="txtdogSterilized" id="txtdogSterilized">
-            </p><p>
-              <label for="flddogMicrochip">Microchip?</label>
-              <input type="text" class="form-control" name="txtdogMicrochip" id="txtdogMicrochip">
-              </p><p>
-                <label for="flddogNotes">Notes</label>
-                <input type="text" class="form-control" name="txtdogNotes" id="txtdogNotes">
-                </p>
+          <label for="fldconditionNotes">Notes</label>
+          <input type="text" class="form-control" name="txtconditionNotes" id="txtconditionNotes">
+          </p>
         
 <p>&nbsp;</p>
 <p>
