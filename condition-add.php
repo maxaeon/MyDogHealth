@@ -4,7 +4,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Add New Condition</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
-
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-SSlL99sDpE+1sG+nCoyv/QOFeDnX9zPbZpHtWkEZtRgFtWTwGhJq3rW2ptjQYafX9xlNcQ8zLWzs82vAVNUnyA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <link rel="stylesheet" href="style.css">
@@ -53,7 +52,7 @@
               <div class="text-center">
 <fieldset>
 <legend>Add Condition</legend>
-<form name="frmDog" method="post" action="dog-create.php">
+<form name="frmCondition" method="post" action="condition-create.php">
 
 <p>
 <label for="fldconditionName">Condition Name</label>
@@ -67,7 +66,7 @@
     <input type="text" class="form-control" name="txtconditionDoctor" id="txtconditionDoctor">
     </p><p>
       <label for="fldconditionTreatment">Treatment Plan</label>
-      <input type="text" class="form-control" name="txtfldconditionTreatment" id="txtfldconditionTreatment">
+      <input type="text" class="form-control" name="txtconditionTreatment" id="txtconditionTreatment">
       </p><p>
         <label for="fldconditionPrognosis">Prognosis</label>
         <input type="boolean" class="form-control" name="txtconditionPrognosis" id="txtconditionPrognosis">
@@ -91,21 +90,21 @@
 <section>
   <div class="row m-0">
     <div class="col-lg-3 bottom-btn">
-        <a href="Welcome Screen With no saved dogs.html">
+        <a href="dog-view.php">
           <div class="text-center">
             <img src="images/pawprinticon.png" class="rounded pt-3" alt="...">
           </div>
         </a>
     </div>
     <div class="col-lg-3 bottom-btn">
-      <a href="Appointment Schedule.html">
+      <a href="appointment-view.php">
         <div class="text-center">
           <img src="images/appointment.png" class="rounded" alt="...">
         </div>
       </a>
   </div>
   <div class="col-lg-3 bottom-btn">
-    <a href="Veterinarian Information.html">
+    <a href="veterinarian-view.php">
       <div class="text-center">
         <img src="images/veterinarian.png" class="rounded" alt="...">
       </div>

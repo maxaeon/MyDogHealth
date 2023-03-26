@@ -11,7 +11,7 @@ $txtconditionNotes = $_POST['txtconditionNotes'];
 
 echo "Record to Insert";
 // database insert SQL code
-$sql = "INSERT INTO tbl_condition (fldconditionName, fldconditionDateDiganosed, fldconditionDoctor, fldconditionTreatment, fldconditionPrognosis, fldconditionNotes) VALUES ('$txtconditionName','$txtconditionDateDiagnosed','$txtconditionDoctor','$txtconditionTreatment','$txtconditionPrognosis','$txtconditionNotes')";
+$sql = "INSERT INTO tbl_condition (fldconditionName, fldconditionDateDiagnosed, fldconditionDoctor, fldconditionTreatment, fldconditionPrognosis, fldconditionNotes) VALUES ('$txtconditionName','$txtconditionDateDiagnosed','$txtconditionDoctor','$txtconditionTreatment','$txtconditionPrognosis','$txtconditionNotes')";
 echo $sql;
 // insert in database 
 $rs = mysqli_query($con, $sql);
