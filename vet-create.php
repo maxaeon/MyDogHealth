@@ -10,9 +10,9 @@ $txtvetDoctor = $_POST['txtvetDoctor'];
 $txtvetDog = $_POST['txtvetDog'];
 $txtvetNotes = $_POST['txtvetNotes'];
 
-echo "Vet Record Prior to Insertion";
+echo "Vet Record to Insert";
 // database insert SQL code
-$sql = "INSERT INTO tbl_dog (fldvetClinic, fldvetAddress, fldvetPhone, fldvetEmail, fldvetDoctor, fldvetDog, fldvetNotes) VALUES ('$txtvetClinic','$txtvetAddress', '$txtvetPhone', '$txtvetEmail', '$txtvetDoctor', '$txtvetDog', '$txtvetNotes' )";
+$sql = "INSERT INTO tbl_vet (fldvetClinic, fldvetAddress, fldvetPhone, fldvetEmail, fldvetDoctor, fldvetDog, fldvetNotes) VALUES ('$txtvetClinic','$txtvetAddress', '$txtvetPhone', '$txtvetEmail', '$txtvetDoctor', '$txtvetDog', '$txtvetNotes' )";
 echo $sql;
 // insert in database 
 $rs = mysqli_query($con, $sql);
