@@ -15,10 +15,10 @@
   <!-- header part start -->
   <section id="header">
     <div class="hamburger-menu">
-      <button class="hamburger-toggle">
+      <button class="hamburger-toggle"><a href="menu.html">
         <span class="hamburger-bar"></span>
         <span class="hamburger-bar"></span>
-        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span></a>
       </button>
     </div>
   </section>
