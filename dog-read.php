@@ -5,7 +5,7 @@ include 'db.php';
   $result = $conn->query($sql);
   while($row = $result->fetch_assoc()) {
     echo "<tr>";
-
+    if (isset($_POST["DogId"])){
     if ($row['DogId'] == $_GET['DogId']) {
         echo '<form class="form-inline m-2" action="dog-update.php" method="POST">';
         echo '<td><input type="text" class="form-control" name="dogname" value="'.$row['flddogName'].'"></td>';
@@ -21,7 +21,7 @@ include 'db.php';
         echo '<td><button type="submit" class="btn btn-primary">Save</button></td>';
         echo '<input type="hidden" name="DogId" value="'.$row['DogId'].'">';
         echo '</form>';
-      } else {
+      }} else {
 
     echo "<td>" . $row['flddogName'] . "</td>";
     echo "<td>" . $row['flddogDOB'] . "</td>";
@@ -33,9 +33,12 @@ include 'db.php';
     echo "<td>" . $row['flddogMicrochip'] . "</td>";    
     echo "<td>" . $row['flddogNotes'] . "</td>";
 
-    echo '<td><a class="btn btn-primary" href="index.php?id=' . $row['DogId'] . '" role="button">Update</a></td>';
+   // echo '<td><a class="btn btn-primary" href="index.php?id=' . $row['DogId'] . '" role="button">Update</a></td>';
       }
-    echo '<td><a class="btn btn-danger" href="dog-delete.php?id=' . $row['DogId'] . '" role="button">Delete</a></td>';
+    //echo '<td><a class="btn btn-danger" href="dog-delete.php?id=' . $row['DogId'] . '" role="button">Delete</a></td>';
+    echo '<td><a class="btn btn-primary" href="medication.php?id=' . $row['DogId'] . '" role="button">Medications</a></td>';
+    echo '<td><a class="btn btn-primary" href="food.php?id=' . $row['DogId'] . '" role="button">Food</a></td>';
+    echo '<td><a class="btn btn-primary" href="condition.php?id=' . $row['DogId'] . '" role="button">Health History</a></td>';
     echo "</tr>";
   }
   $conn->close();
