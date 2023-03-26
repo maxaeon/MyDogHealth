@@ -39,12 +39,13 @@
     <div class="container text-center">
       <div class="row">
         <div class="col-lg-12">
-          <h6>My Dog Information</h6>
+          <h3>My Dog Information</h3>
         </div>
       </div>
     </div>
   </section>
-​
+
+
 <section class="">
   <div class="container text-center">
     <div class="row">
@@ -58,6 +59,17 @@
 </div>
 </div>
 </section>
+
+<section class="">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-12">
+<h3><a href="dog-add.php">Add New</a>
+</div>
+      </div>
+    </div>
+  </section>
+
 
 <section>
   <div class="row m-0">
