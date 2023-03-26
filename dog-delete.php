@@ -1,8 +1,9 @@
 <?php
   include 'db.php';
-  $id = $_GET['id'];
-  $sql = "delete from tbl_dog where id=$id";
-  $conn->query($sql);
+  if (isset($_POST['DogId'])){
+  $DogId = $_GET['DogId'];
+  $sql = "delete from 'tbl_dog' where 'DogId'=$DogId";
+  $conn->query($sql);}
   $conn->close();
-  header("location: home.php");
+ header("location: add-dog.php");
 ?>
