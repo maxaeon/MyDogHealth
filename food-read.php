@@ -1,7 +1,7 @@
 <?php
 // database connection code
 include 'db.php';
-  $sql = "select * from tbl_";
+  $sql = "select * from tbl_food";
   $result = $conn->query($sql);
   while($row = $result->fetch_assoc()) {
 
