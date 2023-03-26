@@ -15,11 +15,6 @@ include 'db.php';
     echo "<td>" . $row['fldmedicationDoctor'] . "</td>";
     echo "<td>" . $row['fldmedicationNotes'] . "</td>";
 
-
-   
-    echo '<td><a class="btn btn-primary" href="medication-view.php?id=' . $row['DogId'] . '" role="button">Medications</a></td>';
-    echo '<td><a class="btn btn-primary" href="food-view.php?id=' . $row['DogId'] . '" role="button">Food</a></td>';
-    echo '<td><a class="btn btn-primary" href="condition-view.php?id=' . $row['DogId'] . '" role="button">Health History</a></td>';
     echo "</tr>";
   }
   $conn->close();

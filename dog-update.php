@@ -1,6 +1,6 @@
 <?php
   include 'db.php';
-  $DogId = $_POST['DogId'];
+  $txtDogId = $_POST['DogId'];
   $txtdogName = $_POST['flddogName'];
   $txtdogDOB = $_POST['flddogDOB'];
   $txtdogAgeInYears = $_POST['flddogAgeInYears'];
