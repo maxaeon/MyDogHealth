@@ -60,6 +60,16 @@
 </div>
 </section>
 
+<section>
+<div class="container text-center">
+      <div class="row">
+        <div class="col-lg-12">
+<td><a class="btn btn-primary" href="" role="button">Update</a></td>
+<td><a class="btn btn-danger" href="" role="button">Delete</a></td>
+      </div>
+    </div>
+</section>
+  
 <section class="">
     <div class="container text-center">
       <div class="row">
@@ -74,7 +84,7 @@
   <section>
   <div class="row m-0">
     <div class="col-lg-3 bottom-btn">
-        <a href="dog-view.php">
+        <a href="welcome.php">
           <div class="text-center">
             <img src="images/home.png" class="rounded pt-3" alt="...">
           </div>
