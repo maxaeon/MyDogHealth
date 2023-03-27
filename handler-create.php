@@ -19,7 +19,7 @@ $rs = mysqli_query($con, $sql);
 
 if($rs)
 {
-	include("dog-view.php");
+	include("welcome.php");
 }
 
 
