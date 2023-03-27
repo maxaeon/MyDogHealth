@@ -11,16 +11,18 @@ $txtappointmentCost = $_POST['txtappointmentCost'];
 $txtappointmentNotes = $_POST['txtappointmentNotes'];
 
 
-echo "Record to Insert";
+
 // database insert SQL code
-$sql = "INSERT INTO tbl_appointment (fldappointmentTitle, fldappointmentLocation, fldappointmentContact, fldappointmentTime, fldappointmentRequiredDocs, fldappointmentCost, fldappointmentNotes) VALUES ('$txtappointmentTitle', '$txtappointmentLocation', '$txtappointmentContact', '$txtappointmentTime', '$txtappointmentRequiredDocs', '$txtappointmentCost', '$txtappointmentNotes')";
-echo $sql;
+$sql = "INSERT INTO tbl_appointment (fldappointmentTitle, fldappointmentLocation, fldappointmentContact, fldappointmentTime, fldappointmentRequiredDocs, fldappointmentCost, fldappointmentNotes,fldappointmentHandler) VALUES ('$txtappointmentTitle', '$txtappointmentLocation', '$txtappointmentContact', '$txtappointmentTime', '$txtappointmentRequiredDocs', '$txtappointmentCost', '$txtappointmentNotes', ' ')";
 // insert in database 
 $rs = mysqli_query($con, $sql);
 
 if($rs)
 {
-	echo "Record Updated Successfully";
+	include("appointment-view.php");
+	
+}else{
+
 }
 
 
