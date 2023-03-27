@@ -13,7 +13,7 @@ $txtappointmentNotes = $_POST['txtappointmentNotes'];
 
 echo "Record to Insert";
 // database insert SQL code
-$sql = "INSERT INTO tbl_appointment (fldappointmentTitle, fldappointmentLocation, fldappointmentContact, fldappointmentTime, fldappointmentRequiredDocs, fldappointmentCost, fldappointmentNotes) VALUES ('$txttxtappointmentTitle', '$txttxtappointmentLocation', '$txttxtappointmentContact', '$txttxtappointmentTime', '$txttxtappointmentRequiredDocs', '$txttxtappointmentCost', '$txttxtappointmentNotes')";
+$sql = "INSERT INTO tbl_appointment (fldappointmentTitle, fldappointmentLocation, fldappointmentContact, fldappointmentTime, fldappointmentRequiredDocs, fldappointmentCost, fldappointmentNotes) VALUES ('$txtappointmentTitle', '$txtappointmentLocation', '$txtappointmentContact', '$txtappointmentTime', '$txtappointmentRequiredDocs', '$txtappointmentCost', '$txtappointmentNotes')";
 echo $sql;
 // insert in database 
 $rs = mysqli_query($con, $sql);
