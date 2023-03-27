@@ -9,16 +9,16 @@ $txtfoodFrequency = $_POST['txtfoodFrequency'];
 $txtfoodFavorite = $_POST['txtfoodFavorite'];
 $txtfoodNotes = $_POST['txtfoodNotes'];
 
-echo "Record to Insert";
+//echo "Record to Insert";
 // database insert SQL code
-$sql = "INSERT INTO tbl_food (fldfoodName, fldfoodBrand, fldfoodAmount, fldfoodFrequency, fldfoodFavorite, fldfoodNotes) VALUES ('$txtfoodName','$txtfoodBrand','$txtfoodAmount','$txtfoodFrequency','$txtfoodFavorite','$txtfoodNotes')";
-echo $sql;
+$sql = "INSERT INTO tbl_food (fldfoodName, fldfoodBrand, fldfoodAmount, fldfoodFrequency, fldfoodFavorite, fldfoodNotes, fldfoodDog) VALUES ('$txtfoodName','$txtfoodBrand','$txtfoodAmount','$txtfoodFrequency','$txtfoodFavorite','$txtfoodNotes', ' ')";
+//echo $sql;
 // insert in database 
 $rs = mysqli_query($con, $sql);
 
 if($rs)
 {
-	echo "Record Updated Successfully";
+	include("food-view.php");
 }
 
 

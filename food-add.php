@@ -67,13 +67,16 @@
   <p>
     <label for="fldfoodAmount">Food Amount</label>
     <input type="text" class="form-control" name="txtfoodAmount" id="txtfoodAmount">
-    </p><p>
+    </p>
+    <p>
         <label for="fldfoodFrequency">Food Frequency</label>
         <input type="text" class="form-control" name="txtfoodFrequency" id="txtfoodFrequency">
-        </p><p>
+        </p>
+        <p>
           <label for="fldfoodFavorite">Is this Food a Favorite?</label>
           <input type="text" class="form-control" name="txtfoodFavorite" id="txtfoodFavorite">
-          </p><p>
+          </p>
+          <p>
                 <label for="fldfoodNotes">Notes</label>
                 <input type="text" class="form-control" name="txtfoodNotes" id="txtfoodNotes">
                 </p>
