@@ -11,15 +11,7 @@
 </head>
 <body>
  <!-- header part start -->
- <section id="header">
-  <div class="hamburger-menu">
-    <button class="hamburger-toggle">
-      <span class="hamburger-bar"></span>
-      <span class="hamburger-bar"></span>
-      <span class="hamburger-bar"></span>
-    </button>
-  </div>
-</section>
+
 <!-- header part end -->
   <section class="pt-5">
     <div class="container text-center">
@@ -35,7 +27,7 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="text-center">
-            <img src="images/pawprinticon.png" class="rounded" alt="...">
+            <img src="images/pawprints.png" class="rounded" alt="...">
           </div>
         </div>
       </div>
@@ -55,7 +47,7 @@
                     <input type="password" aria-label="Name" class="form-control" placeholder="Password">
                   </div>
                   <div class="text-center pt-2">
-                    <a href="Welcome Screen With no saved dogs.html">
+                    <a href="dog-view.php">
                       <button type="button" class="btn btn-light">Login</button>
                     </a>
                   </div>
@@ -68,19 +60,7 @@
     <div class="container">
         <div class="info text-center">
             <h6>New Users: </h6>
-            <form action="">
-                <div class="input-group py-1">
-                    <input type="mail" aria-label="Name" class="form-control" placeholder="Email Address">
-                  </div>
-                  <div class="input-group py-1">
-                    <input type="password" aria-label="Name" class="form-control" placeholder="Password">
-                  </div>
-                  <div class="input-group py-1">
-                    <input type="password" aria-label="Name" class="form-control" placeholder="Verify Password">
-                  </div>
-                  <div class="text-center pt-2">
-                    <a href="Welcome Screen With no saved dogs.html">
-                      <button type="button" class="btn btn-light">Register</button>
+<p><a href="handler-add.php">Register</a>
                     </a>
                   </div>
             </form>
