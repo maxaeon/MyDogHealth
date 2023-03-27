@@ -36,10 +36,14 @@ include 'db.php';
    // echo '<td><a class="btn btn-primary" href="index.php?id=' . $row['DogId'] . '" role="button">Update</a></td>';
       }
     //echo '<td><a class="btn btn-danger" href="dog-delete.php?id=' . $row['DogId'] . '" role="button">Delete</a></td>';
-    echo '<td><a class="btn btn-primary" href="medication-view.php?id=' . $row['DogId'] . '" role="button">Medications</a></td>';
-    echo '<td><a class="btn btn-primary" href="food-view.php?id=' . $row['DogId'] . '" role="button">Food</a></td>';
-    echo '<td><a class="btn btn-primary" href="condition-view.php?id=' . $row['DogId'] . '" role="button">Health History</a></td>';
+    
+    echo '<td><a class="btn btn-primary" href="" role="button">Update</a></td>';  
+    echo '<td><a class="btn btn-danger" href="" role="button">Delete</a></td>';
     echo "</tr>";
+    echo '<td><a class="btn btn-secondary" href="medication-view.php?id=' . $row['DogId'] . '" role="button">Medications</a></td>';
+    echo '<td><a class="btn btn-secondary" href="food-view.php?id=' . $row['DogId'] . '" role="button">Food</a></td>';
+    echo '<td><a class="btn btn-secondary" href="condition-view.php?id=' . $row['DogId'] . '" role="button">Health History</a></td>';
+    echo "</tr>";    echo "</tr>";
   }
   $conn->close();
 ?>
