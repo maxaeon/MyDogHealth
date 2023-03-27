@@ -29,7 +29,7 @@ include 'db.php';
     echo "<td>" . $row['fldhandlerAddress'] . "</td>";
     echo "<td>" . $row['fldhandlerNotes'] . "</td>";
 
-      echo '<td><a class="btn btn-primary" href="handler-edit.php" role="button">Update</a></td>';
+      echo '<td><a class="btn btn-primary" href="" role="button">Update</a></td>';
       }
       echo '<td><a class="btn btn-danger" href="handler-delete-warning.php" role="button">Delete</a></td>';
 
