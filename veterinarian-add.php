@@ -15,10 +15,10 @@
   <!-- header part start -->
   <section id="header">
     <div class="hamburger-menu">
-      <button class="hamburger-toggle">
+      <button class="hamburger-toggle"><a href="menu.html">
         <span class="hamburger-bar"></span>
         <span class="hamburger-bar"></span>
-        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span></a>
       </button>
     </div>
   </section>
@@ -29,7 +29,7 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="text-center">
-            <img src="images/aaa.png" class="rounded" alt="...">
+            <img src="images/veterinarian.png" class="rounded" alt="...">
           </div>
         </div>
       </div>
@@ -39,7 +39,7 @@
     <div class="container text-center">
       <div class="row">
         <div class="col-lg-12">
-          <h6> INFORMATION </h6>
+          <h6>My Veterinarian Information </h6>
         </div>
       </div>
     </div>
@@ -52,37 +52,31 @@
             <div class="info">
               <div class="text-center">
 <fieldset>
-<legend>Add Dog</legend>
-<form name="frmDog" method="post" action="dog-create.php">
+<legend>Add Veterinarian</legend>
+<form name="frmVeterinarian" method="post" action="vet-create.php">
 
 <p>
-<label for="flddogName">Dog Name</label>
-<input type="text" class="form-control" name="txtdogName" id="txtdogName">
+<label for="fldvetClinic">Veterinarian Clinic</label>
+<input type="text" class="form-control" name="txtvetClinic" id="txtvetClinic">
 </p>
 <p>
-  <label for="flddogDOB">Dog Date of Birth</label>
-  <input type="date" class="form-control" name="txtdogDOB" id="txtdogDOB">
+  <label for="fldvetAddress">Veterinarian Address</label>
+  <input type="text" class="form-control" name="txtvetAddress" id="txtvetAddress">
   </p><p>
-    <label for="flddogAgeInYears">Dog Age in Years</label>
-    <input type="text" class="form-control" name="txtdogAgeInYears" id="txtdogAgeInYears">
+    <label for="fldvetPhone">Phone Number</label>
+    <input type="text" class="form-control" name="txtvetPhone" id="txtvetPhone">
     </p><p>
-      <label for="flddogBreed">Dog Breed</label>
-      <input type="text" class="form-control" name="txtdogBreed" id="txtdogBreed">
+      <label for="fldvetEmail">Veterinarian Email</label>
+      <input type="text" class="form-control" name="txtvetEmail" id="txtvetEmail">
       </p><p>
-        <label for="flddogSex">Dog Sex</label>
-        <input type="boolean" class="form-control" name="txtdogSex" id="txtdogSex">
+        <label for="fldvetDoctor">Veterinarian Doctor</label>
+        <input type="text" class="form-control" name="txtvetDoctor" id="txtvetDoctor">
         </p><p>
-          <label for="flddogWeightInPounds">Dog Weight in Pounds</label>
-          <input type="text" class="form-control" name="txtdogWeightInPounds" id="txtdogWeightInPounds">
+          <label for="fldvetDog">Which animals does this Veterinarian care for?</label>
+          <input type="text" class="form-control" name="txtvetDog" id="txtvetDog">
           </p><p>
-            <label for="flddogSterilized">Spayed or Neutered?</label>
-            <input type="boolean" class="form-control" name="txtdogSterilized" id="txtdogSterilized">
-            </p><p>
-              <label for="flddogMicrochip">Microchip?</label>
-              <input type="text" class="form-control" name="txtdogMicrochip" id="txtdogMicrochip">
-              </p><p>
-                <label for="flddogNotes">Notes</label>
-                <input type="text" class="form-control" name="txtdogNotes" id="txtdogNotes">
+                <label for="fldvetNotes">Notes</label>
+                <input type="text" class="form-control" name="txtvetNotes" id="txtvetNotes">
                 </p>
         
 <p>&nbsp;</p>
@@ -100,21 +94,21 @@
 <section>
   <div class="row m-0">
     <div class="col-lg-3 bottom-btn">
-        <a href="Welcome Screen With no saved dogs.html">
+        <a href="dog-view.php">
           <div class="text-center">
             <img src="images/pawprinticon.png" class="rounded pt-3" alt="...">
           </div>
         </a>
     </div>
     <div class="col-lg-3 bottom-btn">
-      <a href="Appointment Schedule.html">
+      <a href="appointment-view.php">
         <div class="text-center">
           <img src="images/appointment.png" class="rounded" alt="...">
         </div>
       </a>
   </div>
   <div class="col-lg-3 bottom-btn">
-    <a href="Veterinarian Information.html">
+    <a href="veterinarian-view.php">
       <div class="text-center">
         <img src="images/veterinarian.png" class="rounded" alt="...">
       </div>

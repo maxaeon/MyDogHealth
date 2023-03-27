@@ -14,7 +14,7 @@ include 'db.php';
     echo "<td>" . $row['fldvetDog'] . "</td>";
     echo "<td>" . $row['fldvetNotes'] . "</td>";
 
-
+    echo "</tr>";
 
   }
   $conn->close();
