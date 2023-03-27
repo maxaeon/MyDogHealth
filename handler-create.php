@@ -18,7 +18,7 @@ $rs = mysqli_query($con, $sql);
 
 if($rs)
 {
-	include("condition-view.php");
+	include("dog-view.php");
 }
 
 
