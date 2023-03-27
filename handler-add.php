@@ -12,7 +12,7 @@
 ​
 <body>
 ​
-  <!-- header part start -->
+  <!-- header part start
   <section id="header">
     <div class="hamburger-menu">
       <button class="hamburger-toggle"><a href="menu-1.html">
