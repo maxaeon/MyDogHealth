@@ -23,26 +23,40 @@ include 'db.php';
         echo '</form>';
       }} else {
 
-    echo "<td>" . $row['flddogName'] . "</td>";
-    echo "<td>" . $row['flddogDOB'] . "</td>";
-    echo "<td>" . $row['flddogAgeInYears'] . "</td>";
-    echo "<td>" . $row['flddogBreed'] . "</td>";    
-    echo "<td>" . $row['flddogSex'] . "</td>";
-    echo "<td>" . $row['flddogWeightInPounds'] . "</td>";    
-    echo "<td>" . $row['flddogSterilized'] . "</td>";
-    echo "<td>" . $row['flddogMicrochip'] . "</td>";    
-    echo "<td>" . $row['flddogNotes'] . "</td>";
+      echo "</tr>";
+      echo "<td> Dog Name:</td>";
+        echo "<td>" . $row['flddogName'] . "</td>";
+        echo "</tr>";
+        echo "<td> Date of Birth:</td>";
+        echo "<td>" . $row['flddogDOB'] . "</td>";
+        echo "</tr>";
+        echo "<td> Age in Years:</td>";
+        echo "<td>" . $row['flddogAgeInYears'] . "</td>";
+        echo "</tr>";
+        echo "<td> Breed:</td>";
+        echo "<td>" . $row['flddogBreed'] . "</td>";    
+        echo "</tr>";
+        echo "<td> Male or Female? </td>";
+        echo "<td>" . $row['flddogSex'] . "</td>";
+        echo "</tr>";
+        echo "<td> Weight in Pounds: </td>";
+        echo "<td>" . $row['flddogWeightInPounds'] . "</td>";    
+        echo "</tr>";
+        echo "<td> Spayed or Neutered? </td>";
+        echo "<td>" . $row['flddogSterilized'] . "</td>";
+        echo "</tr>"; 
+        echo "<td>Microchip? Leave blank if not applicable </td>";
+        echo "<td>" . $row['flddogMicrochip'] . "</td>";    
+        echo "</tr>";
+        echo "<td> Notes: </td>";
+        echo "<td>" . $row['flddogNotes'] . "</td>";
+        echo "</tr>";
 
    // echo '<td><a class="btn btn-primary" href="index.php?id=' . $row['DogId'] . '" role="button">Update</a></td>';
       }
     //echo '<td><a class="btn btn-danger" href="dog-delete.php?id=' . $row['DogId'] . '" role="button">Delete</a></td>';
     
-    echo '<td><a class="btn btn-primary" href="" role="button">Update</a></td>';  
-    echo '<td><a class="btn btn-danger" href="" role="button">Delete</a></td>';
-    echo "</tr>";
-    echo '<td><a class="btn btn-secondary" href="medication-view.php?id=' . $row['DogId'] . '" role="button">Medications</a></td>';
-    echo '<td><a class="btn btn-secondary" href="food-view.php?id=' . $row['DogId'] . '" role="button">Food</a></td>';
-    echo '<td><a class="btn btn-secondary" href="condition-view.php?id=' . $row['DogId'] . '" role="button">Health History</a></td>';
+
     echo "</tr>";    echo "</tr>";
   }
   $conn->close();
