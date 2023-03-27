@@ -60,6 +60,21 @@
 </div>
 </section>
 
+<section>
+<div class="container text-center">
+      <div class="row">
+        <div class="col-lg-12">
+<td><a class="btn btn-primary" href="" role="button">Update</a></td>
+<td><a class="btn btn-danger" href="" role="button">Delete</a></td>
+</tr><br><br>
+<td><a class="btn btn-secondary" href="medication-view.php?id=' . $row['DogId'] . '" role="button">Medications</a></td>
+<td><a class="btn btn-secondary" href="food-view.php?id=' . $row['DogId'] . '" role="button">Food</a></td>
+<td><a class="btn btn-secondary" href="condition-view.php?id=' . $row['DogId'] . '" role="button">Health History</a></td>
+</div>
+      </div>
+    </div>
+</section>
+  
 <section class="">
     <div class="container text-center">
       <div class="row">
