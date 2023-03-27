@@ -11,16 +11,16 @@ $txtmedicationMethod = $_POST['txtmedicationMethod'];
 $txtmedicationDoctor = $_POST['txtmedicationDoctor'];
 $txtmedicationNotes = $_POST['txtmedicationNotes'];
 
-echo "Record to Insert";
+//echo "Record to Insert";
 // database insert SQL code
-$sql = "INSERT INTO tbl_medication (fldmedicationName, fldmedicationStartDate, fldmedicationEndDate, fldmedicationDose, fldmedicationFrequency, fldmedicationMethod, fldmedicationDoctor, fldmedicationNotes) VALUES ('$txtmedicationName', '$txtmedicationStartDate', '$txtmedicationEndDate', '$txtmedicationDose', '$txtmedicationFrequency', '$txtmedicationMethod', '$txtmedicationDoctor', '$txtmedicationNotes')";
-echo $sql;
+$sql = "INSERT INTO tbl_medication (fldmedicationName, fldmedicationStartDate, fldmedicationEndDate, fldmedicationDose, fldmedicationFrequency, fldmedicationMethod, fldmedicationDoctor, fldmedicationNotes, fldmedicationDog) VALUES ('$txtmedicationName', '$txtmedicationStartDate', '$txtmedicationEndDate', '$txtmedicationDose', '$txtmedicationFrequency', '$txtmedicationMethod', '$txtmedicationDoctor', '$txtmedicationNotes', ' ')";
+//echo $sql;
 // insert in database 
 $rs = mysqli_query($con, $sql);
 
 if($rs)
 {
-	echo "Record Updated Successfully";
+	include("medication-view.php");
 }
 
 

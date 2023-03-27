@@ -10,15 +10,15 @@ $txtvetDoctor = $_POST['txtvetDoctor'];
 $txtvetDog = $_POST['txtvetDog'];
 $txtvetNotes = $_POST['txtvetNotes'];
 
-echo "Vet Record Prior to Insertion";
+//echo "Vet Record Prior to Insertion";
 // database insert SQL code
-$sql = "INSERT INTO tbl_veterinarian (fldvetClinic, fldvetAddress, fldvetPhone, fldvetEmail, fldvetDoctor, fldvetDog, fldvetNotes) VALUES ('$txtvetClinic','$txtvetAddress', '$txtvetPhone', '$txtvetEmail', '$txtvetDoctor', '$txtvetDog', '$txtvetNotes' )";
-echo $sql;
+$sql = "INSERT INTO tbl_veterinarian (fldvetClinic, fldvetAddress, fldvetPhone, fldvetEmail, fldvetDoctor, fldvetDog, fldvetNotes, fldvetHandler) VALUES ('$txtvetClinic','$txtvetAddress', '$txtvetPhone', '$txtvetEmail', '$txtvetDoctor', '$txtvetDog', '$txtvetNotes', ' ')";
+//echo $sql;
 // insert in database 
 $rs = mysqli_query($con, $sql);
 
 if($rs)
 {
-	echo "Vet Record Updated Successfully";
+	include("veterinarian-view.php");
 }
 ?>
