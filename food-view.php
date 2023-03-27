@@ -76,7 +76,7 @@
     <div class="col-lg-3 bottom-btn">
         <a href="dog-view.php">
           <div class="text-center">
-            <img src="images/pawprinticon.png" class="rounded pt-3" alt="...">
+            <img src="images/home.png" class="rounded pt-3" alt="...">
           </div>
         </a>
     </div>
