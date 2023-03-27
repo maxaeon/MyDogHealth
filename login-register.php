@@ -27,7 +27,7 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="text-center">
-            <img src="images/pawprinticon.png" class="rounded" alt="...">
+            <img src="images/pawprints.png" class="rounded" alt="...">
           </div>
         </div>
       </div>
