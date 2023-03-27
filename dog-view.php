@@ -29,7 +29,7 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="text-center">
-            <img src="images/aaa.png" class="rounded" alt="...">
+            <img src="images/dog.png" class="rounded" alt="...">
           </div>
         </div>
       </div>
