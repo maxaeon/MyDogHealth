@@ -47,7 +47,7 @@
                     <input type="password" aria-label="Name" class="form-control" placeholder="Password">
                   </div>
                   <div class="text-center pt-2">
-                    <a href="dog-view.php">
+                    <a href="welcome.php">
                       <button type="button" class="btn btn-light">Login</button>
                     </a>
                   </div>
