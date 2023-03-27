@@ -13,7 +13,7 @@ include 'db.php';
     echo "<td>" . $row['fldconditionPrognosis'] . "</td>";
     echo "<td>" . $row['fldconditionNotes'] . "</td>";
 
-   
+   echo "</tr>";
     
   }
   $conn->close();
