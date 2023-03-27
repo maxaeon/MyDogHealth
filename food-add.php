@@ -65,7 +65,7 @@
       <input type="text" class="form-control" name="txtfoodBrand" id="txtfoodBrand">
       </p>
   <p>
-    <label for="fldfoodAmount">Food Amount/label>
+    <label for="fldfoodAmount">Food Amount</label>
     <input type="text" class="form-control" name="txtfoodAmount" id="txtfoodAmount">
     </p><p>
         <label for="fldfoodFrequency">Food Frequency</label>
