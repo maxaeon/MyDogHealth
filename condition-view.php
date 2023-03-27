@@ -59,6 +59,17 @@
 </div>
 </div>
 </section>
+  
+  <section class="">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-lg-12">
+<td><a class="btn btn-primary" href="" role="button">Update</a></td>
+<td><a class="btn btn-danger" href="" role="button">Delete</a></td>
+</div>
+</div>
+</div>
+</section>
 
 <section class="">
     <div class="container text-center">
