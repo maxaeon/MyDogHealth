@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 27, 2023 at 05:23 PM
+-- Generation Time: Mar 27, 2023 at 11:23 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -39,16 +39,6 @@ CREATE TABLE `tbl_appointment` (
   `fldappointmentHandler` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
---
--- Dumping data for table `tbl_appointment`
---
-
-INSERT INTO `tbl_appointment` (`AppointmentId`, `fldappointmentTitle`, `fldappointmentLocation`, `fldappointmentContact`, `fldappointmentTime`, `fldappointmentRequiredDocs`, `fldappointmentCost`, `fldappointmentNotes`, `fldappointmentHandler`) VALUES
-(1, 'Checkup', 'example street 123', 'blahlblah', '2023-03-25 21:50:24', '', '', '', ''),
-(3, '', '', '', '0000-00-00 00:00:00', '', '', '', ''),
-(4, '', '', '', '0000-00-00 00:00:00', '', '', '', ''),
-(5, '', '', '', '0000-00-00 00:00:00', '', '', '', '');
-
 -- --------------------------------------------------------
 
 --
@@ -65,14 +55,6 @@ CREATE TABLE `tbl_condition` (
   `fldconditionNotes` varchar(150) NOT NULL,
   `fldConditionDog` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `tbl_condition`
---
-
-INSERT INTO `tbl_condition` (`ConditionId`, `fldconditionName`, `fldconditionDateDiagnosed`, `fldconditionDoctor`, `fldconditionTreatment`, `fldconditionPrognosis`, `fldconditionNotes`, `fldConditionDog`) VALUES
-(1, 'gfds', '0000-00-00', '', '', '', '', ''),
-(5, '', '0000-00-00', '', '', '', '', '');
 
 -- --------------------------------------------------------
 
@@ -94,14 +76,6 @@ CREATE TABLE `tbl_dog` (
   `flddogNotes` varchar(150) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
---
--- Dumping data for table `tbl_dog`
---
-
-INSERT INTO `tbl_dog` (`DogId`, `flddogHandler`, `flddogName`, `flddogDOB`, `flddogAgeInYears`, `flddogBreed`, `flddogSex`, `flddogWeightInPounds`, `flddogSterilized`, `flddogMicrochip`, `flddogNotes`) VALUES
-(1, '1', 'Buddy', '2021-11-11', '2', 'rottweiler', 'male', 100, 'no', 0, '0'),
-(25, '', '', '0000-00-00', '0', '', '', 0, '', 0, '');
-
 -- --------------------------------------------------------
 
 --
@@ -119,13 +93,6 @@ CREATE TABLE `tbl_food` (
   `fldfoodDog` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
---
--- Dumping data for table `tbl_food`
---
-
-INSERT INTO `tbl_food` (`FoodId`, `fldfoodName`, `fldfoodBrand`, `fldfoodAmount`, `fldfoodFrequency`, `fldfoodFavorite`, `fldfoodNotes`, `fldfoodDog`) VALUES
-(1, 'ghs', '', '', '', 0, 'gfsd', '');
-
 -- --------------------------------------------------------
 
 --
@@ -142,13 +109,6 @@ CREATE TABLE `tbl_handler` (
   `fldhandlerAddress` varchar(50) NOT NULL,
   `fldhandlerNotes` varchar(150) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `tbl_handler`
---
-
-INSERT INTO `tbl_handler` (`HandlerId`, `fldhandlerFirstName`, `fldhandlerLastName`, `fldhandlerEmail`, `fldhandlerPassword`, `fldhandlerPhone`, `fldhandlerAddress`, `fldhandlerNotes`) VALUES
-(1, 'Max', 'Parks', 'maxaeonparks@gmail.com', 'myPasswd', '8104290508', 'Burton, MI', '');
 
 -- --------------------------------------------------------
 
@@ -169,14 +129,6 @@ CREATE TABLE `tbl_medication` (
   `fldmedicationDog` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
---
--- Dumping data for table `tbl_medication`
---
-
-INSERT INTO `tbl_medication` (`MedicationId`, `fldmedicationName`, `fldmedicationStartDate`, `fldmedicationEndDate`, `fldmedicationDose`, `fldmedicationFrequency`, `fldmedicationMethod`, `fldmedicationDoctor`, `fldmedicationNotes`, `fldmedicationDog`) VALUES
-(1, '', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '', '', '', '', '', ''),
-(2, '', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '', '', '', '', '', '');
-
 -- --------------------------------------------------------
 
 --
@@ -194,15 +146,6 @@ CREATE TABLE `tbl_veterinarian` (
   `fldvetNotes` varchar(150) NOT NULL,
   `fldvetHandler` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `tbl_veterinarian`
---
-
-INSERT INTO `tbl_veterinarian` (`VeterinarianId`, `fldvetClinic`, `fldvetAddress`, `fldvetPhone`, `fldvetEmail`, `fldvetDoctor`, `fldvetDog`, `fldvetNotes`, `fldvetHandler`) VALUES
-(1, 'New Example', 'example town', '1234567896', '', '', '', '', ''),
-(3, '', '', '', '', '', '', '', ''),
-(4, 'gfsd', '', '', '', '', '', '', '');
 
 --
 -- Indexes for dumped tables
@@ -282,7 +225,7 @@ ALTER TABLE `tbl_food`
 -- AUTO_INCREMENT for table `tbl_handler`
 --
 ALTER TABLE `tbl_handler`
-  MODIFY `HandlerId` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `HandlerId` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT for table `tbl_medication`
