@@ -6,15 +6,25 @@ include 'db.php';
   while($row = $result->fetch_assoc()) {
 
 
+    echo "</tr>";
+    echo "<td> Condition:</td>";
     echo "<td>" . $row['fldconditionName'] . "</td>";
+    echo "</tr>";
+    echo "<td> Date Diagnosed:</td>";
     echo "<td>" . $row['fldconditionDateDiagnosed'] . "</td>";
+    echo "</tr>";
+    echo "<td> Doctor:</td>";
     echo "<td>" . $row['fldconditionDoctor'] . "</td>";
-    echo "<td>" . $row['fldconditionTreatment'] . "</td>";
+    echo "</tr>";
+    echo "<td> Treatment Plan:</td>";
+        echo "<td>" . $row['fldconditionTreatment'] . "</td>";
+        echo "</tr>";
+    echo "<td> Prognosis:</td>";
     echo "<td>" . $row['fldconditionPrognosis'] . "</td>";
+    echo "</tr>";
+    echo "<td> Notes:</td>";
     echo "<td>" . $row['fldconditionNotes'] . "</td>";
-
-echo '<td><a class="btn btn-primary" href="" role="button">Update</a></td>';  
-  echo '<td><a class="btn btn-danger" href="" role="button">Delete</a></td>';    
+  
     
    echo "</tr>";
     
