@@ -14,7 +14,7 @@ Step 2. <a href="https://www.geeksforgeeks.org/how-to-run-php-programs/">Setup</
                 password: myPasswd<br><br>
 Step 3. Import <a href="https://github.com/maxaeon/MyDogHealth/blob/maxaeon-CR/db/myschema.sql">the myschema db file</a> to phpMyAdmin <br>
   make sure MyUser has full privileges for the myschema database<br><br>
-Step 4. Download repository files to c:/ > XAMPP > htdocs<br><br>
+Step 4. Download <a href="https://github.com/maxaeon/MyDogHealth">repository files</a> to c:/ > XAMPP > htdocs<br><br>
 Step 5. Run <a href="http://localhost/welcome.php">localhost/welcome.php</a> <br>Note: login/logout, update, and delete features are currently non-functional<br>Database information can be edited and deleted through <a href="http://localhost/phpmyadmin/index.php">phpMyAdmin</a>
 
 ## Credits
