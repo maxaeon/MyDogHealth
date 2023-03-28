@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>My Dogs</title>
+<title>My Account</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-SSlL99sDpE+1sG+nCoyv/QOFeDnX9zPbZpHtWkEZtRgFtWTwGhJq3rW2ptjQYafX9xlNcQ8zLWzs82vAVNUnyA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -58,6 +58,16 @@
 </div>
 </div>
 </div>
+</section>
+  
+  <section>
+<div class="container text-center">
+      <div class="row">
+        <div class="col-lg-12">
+<td><a class="btn btn-primary" href="" role="button">Update</a></td>
+<td><a class="btn btn-danger" href="" role="button">Delete</a></td>
+      </div>
+    </div>
 </section>
 <!--
 <section class="">
