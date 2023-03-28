@@ -3,18 +3,25 @@
 ![image](https://user-images.githubusercontent.com/87254760/226127173-af2127bf-3554-43fc-892f-058471ac9092.png)
 
 ## Description
-This project will allow users to keep track of information relevant to their dog's well-being. It is currently undergoing development. See more at dog6501.wordpress.com 
+This project will allow users to keep track of information relevant to their dog's well-being. It is currently undergoing development, and login features do not work. See more at dog6501.wordpress.com 
 
 ## How to Use
-To be deployed on heroku 
+Step 1. Download XAMPP
+Step 2. Setup 
+    phpMyAdmin  username: MyUser 
+                password: myPasswd
+Step 3. Import https://github.com/maxaeon/MyDogHealth/blob/maxaeon-CR/db/myschema.sql tp phpMyAdmin 
+  make sure MyUser has full privileges for the myschema database
+Step 4. Download files to c:/ > XAMPP > htdocs
+Step 5. Run on localhost
 
 ## Credits
-This sandbox was created by MaxAeon, Kamal, Feroz, and Chris. 
+This project was created by Max, Feroz, Kamal, and Chris. 
 
 ## License
 MIT License
 
-Copyright (c) [2023] MaxAeon Feroz Kamal & Chris
+Copyright (c) [2023] Max Feroz Kamal & Chris
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
