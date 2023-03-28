@@ -3,7 +3,7 @@
 ![image](https://user-images.githubusercontent.com/87254760/226127173-af2127bf-3554-43fc-892f-058471ac9092.png)
 
 ## Description
-This project will allow users to keep track of information relevant to their dog's well-being. Users can create dog profiles and save their basic information, medication information, health conditions information, and food information. Users can also save veterinarian information and appointment information. It is currently undergoing development; login/logout, edit, and delete features do not work. <br><br>See more at <a href="dog6501.wordpress.com">The Dog Group's Site</a>.
+This project will allow users to keep track of information relevant to their dog's well-being. Users can create dog profiles and save their basic information, medication information, health conditions information, and food information. Users can also save veterinarian information and appointment information. It is currently undergoing development; login/logout, edit, and delete features do not work. <br><br>See more at <a href="https://dog6501.wordpress.com">The Dog Group's Site</a>.
 
 ## How to Use
 This is a php and mysql-based system implementation.
