@@ -21,17 +21,30 @@ include 'db.php';
           echo '</form>';
         }} else {
 
+          echo "</tr>";
+    echo "<td> First Name:</td>";
     echo "<td>" . $row['fldhandlerFirstName'] . "</td>";
+                echo "</tr>";
+    echo "<td> Last Name:</td>";
     echo "<td>" . $row['fldhandlerLastName'] . "</td>";
+          echo "</tr>";
+    echo "<td> Email:</td>";      
     echo "<td>" . $row['fldhandlerEmail'] . "</td>";
+                echo "</tr>";
+    echo "<td> Password:</td>";
     echo "<td>" . $row['fldhandlerPassword'] . "</td>";
+                echo "</tr>";
+    echo "<td> Phone:</td>";
     echo "<td>" . $row['fldhandlerPhone'] . "</td>";
+                echo "</tr>";
+    echo "<td> Address:</td>";
     echo "<td>" . $row['fldhandlerAddress'] . "</td>";
+                echo "</tr>";
+    echo "<td> Notes:</td>";
     echo "<td>" . $row['fldhandlerNotes'] . "</td>";
 
-      echo '<td><a class="btn btn-primary" href="" role="button">Update</a></td>';
       }
-      echo '<td><a class="btn btn-danger" href="handler-delete-warning.php" role="button">Delete</a></td>';
+
 
     echo "<tr>";
 
