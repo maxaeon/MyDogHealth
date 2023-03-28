@@ -14,7 +14,7 @@ Step 1. <a href="https://www.apachefriends.org/download.html">Download XAMPP</a>
 Step 2. <a href="https://www.geeksforgeeks.org/how-to-run-php-programs/">Setup</a><br>
     phpMyAdmin  username: MyUser <br>
                 password: myPasswd<br>
-    start the apache and mysql modules<br>
+    start the apache and mysql modules<br><br>
 Step 3. Import <a href="https://github.com/maxaeon/MyDogHealth/blob/maxaeon-CR/db/myschema.sql">the myschema db file</a> to phpMyAdmin <br>
   make sure MyUser has full privileges for the myschema database<br><br>
 Step 4. Download <a href="https://github.com/maxaeon/MyDogHealth">repository files</a> to c:/ > XAMPP > htdocs<br><br>
