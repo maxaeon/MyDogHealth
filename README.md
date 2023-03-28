@@ -6,12 +6,15 @@
 This project will allow users to keep track of information relevant to their dog's well-being. Users can create dog profiles and save their basic information, medication information, health conditions information, and food information. Users can also save veterinarian information and appointment information. It is currently undergoing development; login/logout, update, and delete features do not work. <br><br>See more at <a href="dog6501.wordpress.com">The Dog Group's Site</a>.
 
 ## How to Use
-This is a php-based system implementation.<br><br>
+This is a php and mysql-based system implementation.
+<br><br>![Screenshot (47)](https://user-images.githubusercontent.com/87254760/228097474-f120cf22-6d8f-4671-ae79-be399380e9c2.png)
+<br><br>
 Step 1. <a href="https://www.apachefriends.org/download.html">Download XAMPP</a>
 <br><br>
 Step 2. <a href="https://www.geeksforgeeks.org/how-to-run-php-programs/">Setup</a><br>
     phpMyAdmin  username: MyUser <br>
-                password: myPasswd<br><br>
+                password: myPasswd<br>
+    start the apache and mysql modules<br>
 Step 3. Import <a href="https://github.com/maxaeon/MyDogHealth/blob/maxaeon-CR/db/myschema.sql">the myschema db file</a> to phpMyAdmin <br>
   make sure MyUser has full privileges for the myschema database<br><br>
 Step 4. Download <a href="https://github.com/maxaeon/MyDogHealth">repository files</a> to c:/ > XAMPP > htdocs<br><br>
