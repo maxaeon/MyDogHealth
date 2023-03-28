@@ -3,19 +3,19 @@
 ![image](https://user-images.githubusercontent.com/87254760/226127173-af2127bf-3554-43fc-892f-058471ac9092.png)
 
 ## Description
-This project will allow users to keep track of information relevant to their dog's well-being. It is currently undergoing development, and login features do not work. See more at dog6501.wordpress.com 
+This project will allow users to keep track of information relevant to their dog's well-being. It is currently undergoing development, and login features do not work. <br><br>See more at <a href="dog6501.wordpress.com">The Dog Group's Site</a>.
 
 ## How to Use
-This is a php-based system implementation.
-Step 1. Download XAMPP<br>
-https://www.apachefriends.org/download.html<br><br>
+This is a php-based system implementation.<br><br>
+Step 1. <a href="https://www.apachefriends.org/download.html">Download XAMPP</a>
+<br><br>
 Step 2. <a href="https://www.geeksforgeeks.org/how-to-run-php-programs/">Setup</a><br>
     phpMyAdmin  username: MyUser <br>
                 password: myPasswd<br><br>
-Step 3. Import https://github.com/maxaeon/MyDogHealth/blob/maxaeon-CR/db/myschema.sql to phpMyAdmin <br>
+Step 3. Import <a href="https://github.com/maxaeon/MyDogHealth/blob/maxaeon-CR/db/myschema.sql">the myschema db file</a> to phpMyAdmin <br>
   make sure MyUser has full privileges for the myschema database<br><br>
-Step 4. Download files to c:/ > XAMPP > htdocs<br><br>
-Step 5. Run localhost/welcome.php <br>
+Step 4. Download repository files to c:/ > XAMPP > htdocs<br><br>
+Step 5. Run localhost/welcome.php <br>Note: login feature is currently non-functional.
 
 ## Credits
 This project was created by Max, Feroz, Kamal, and Chris. 
