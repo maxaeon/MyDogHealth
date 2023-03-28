@@ -10,7 +10,7 @@ Step 1. Download XAMPP<br><br>
 Step 2. Setup <br>
     phpMyAdmin  username: MyUser <br>
                 password: myPasswd<br><br>
-Step 3. Import https://github.com/maxaeon/MyDogHealth/blob/maxaeon-CR/db/myschema.sql tp phpMyAdmin <br>
+Step 3. Import https://github.com/maxaeon/MyDogHealth/blob/maxaeon-CR/db/myschema.sql to phpMyAdmin <br>
   make sure MyUser has full privileges for the myschema database<br><br>
 Step 4. Download files to c:/ > XAMPP > htdocs<br><br>
 Step 5. Run localhost/welcome.php <br>
