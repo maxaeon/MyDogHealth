@@ -6,14 +6,14 @@
 This project will allow users to keep track of information relevant to their dog's well-being. It is currently undergoing development, and login features do not work. See more at dog6501.wordpress.com 
 
 ## How to Use
-Step 1. Download XAMPP
-Step 2. Setup 
-    phpMyAdmin  username: MyUser 
-                password: myPasswd
-Step 3. Import https://github.com/maxaeon/MyDogHealth/blob/maxaeon-CR/db/myschema.sql tp phpMyAdmin 
-  make sure MyUser has full privileges for the myschema database
-Step 4. Download files to c:/ > XAMPP > htdocs
-Step 5. Run on localhost
+Step 1. Download XAMPP<br>
+Step 2. Setup <br>
+    phpMyAdmin  username: MyUser <br>
+                password: myPasswd<br>
+Step 3. Import https://github.com/maxaeon/MyDogHealth/blob/maxaeon-CR/db/myschema.sql tp phpMyAdmin <br>
+  make sure MyUser has full privileges for the myschema database<br>
+Step 4. Download files to c:/ > XAMPP > htdocs<br>
+Step 5. Run on localhost<br>
 
 ## Credits
 This project was created by Max, Feroz, Kamal, and Chris. 
