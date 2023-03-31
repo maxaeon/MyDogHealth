@@ -8,7 +8,7 @@ $txthandlerEmail = $_POST['txthandlerEmail'];
 $txthandlerPassword = $_POST['txthandlerPassword'];
 $txthandlerPhone = $_POST['txthandlerPhone'];
 $txthandlerAddress = $_POST['txthandlerAddress'];
-$txthandlerNote = $_POST['txthandlerNote'];
+$txthandlerNotes = $_POST['txthandlerNotes'];
 
 
 // database insert SQL code
