@@ -74,6 +74,8 @@
           <label for="fldconditionNotes">Notes</label>
           <input type="text" class="form-control" name="txtconditionNotes" id="txtconditionNotes">
           </p>
+          <p><label for="fldconditionDog">Dogs with this Condition</label>
+          <input type="text" class="form-control" name="txtconditionDog" id="txtconditionDog">
         
 <p>&nbsp;</p>
 <p>

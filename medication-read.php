@@ -7,7 +7,7 @@ include 'db.php';
 
 
     echo "</tr>";
-    echo "<td> Medication Name:</td>";
+    echo "<td><b> Medication Name:</td>";
     echo "<td>" . $row['fldmedicationName'] . "</td>";
     echo "</tr>";
     echo "<td> Start Date:</td>";
@@ -30,6 +30,9 @@ include 'db.php';
     echo "</tr>";
     echo "<td> Notes:</td>";
     echo "<td>" . $row['fldmedicationNotes'] . "</td>";
+    echo "</tr>";
+    echo "<td>Dogs on this Medication: </td>";
+    echo "<td>" . $row['fldmedicationDog'] . "</td>";
     
     echo "</tr>";
   }

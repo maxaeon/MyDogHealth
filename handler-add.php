@@ -64,25 +64,36 @@
           <input type="text" class="form-control" name="txthandlerLastName" id="txthandlerLastName">
           </p>
       <p>
-      <label for="fldhandlerEmail">Email</label>
+      <label for="fldhandlerEmail">Email*</label>
       <input type="text" class="form-control" name="txthandlerEmail" id="txthandlerEmail">
       </p>
-        <p>
-        <label for="fldhandlerPassword">Password</label>
+      <p>
+        <label for="fldhandlerPassword">Password*</label>
         <input type="text" class="form-control" name="txthandlerPassword" id="txthandlerPassword">
+        </p>
+                <p>
+        <label for="fldhandlerPasswordConfirm">Confirm Password*</label>
+        <input type="text" class="form-control" name="txthandlerPasswordConfirm" id="txthandlerPasswordCoonfirm">
         </p>
     <p>
     <label for="fldhandlerPhone">Phone</label>
     <input type="text" class="form-control" name="txthandlerPhone" id="txthandlerPhone">
     </p>
-  <p>
-  <label for="fldhandlerAddress">Address</label>
-  <input type="text" class="form-control" name="txthandlerAddress" id="txthandlerAddress">
+    <p>
+  <label for="fldhandlerAddress1">Address Line 1</label>
+  <input type="text" class="form-control" name="txthandlerAddress1" id="txthandlerAddress1">
+  </p>  <p>
+  <label for="fldhandlerAddress2">Address Line 2</label>
+  <input type="text" class="form-control" name="txthandlerAddress2" id="txthandlerAddress2">
+  </p>  <p>
+  <label for="fldhandlerAddress3">Address Line 3</label>
+  <input type="text" class="form-control" name="txthandlerAddress3" id="txthandlerAddress3">
   </p>
                 <p>
                 <label for="fldhandlerNotes">Notes</label>
                 <input type="text" class="form-control" name="txthandlerNotes" id="txthandlerNotes">
                 </p>
+                <p>'*' indicates a required field</p>
         
 <p>&nbsp;</p>
 <p>

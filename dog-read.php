@@ -23,8 +23,8 @@ include 'db.php';
         echo '</form>';
       }} else {
 
-      echo "</tr>";
-      echo "<td> Dog Name:</td>";
+        echo "</tr>";        echo "<br>";    
+      echo "<td> <b>Dog Name:<b></td>";
         echo "<td>" . $row['flddogName'] . "</td>";
         echo "</tr>";
         echo "<td> Date of Birth:</td>";

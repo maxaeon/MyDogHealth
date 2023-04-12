@@ -7,13 +7,13 @@ include 'db.php';
 
 
     echo "</tr>";
-    echo "<td> Appointment Title:</td>";
+    echo "<td><b> Appointment Title:</td>";
     echo "<td>" . $row['fldappointmentTitle'] . "</td>";
     echo "</tr>";
     echo "<td>  Location:</td>";
     echo "<td>" . $row['fldappointmentLocation'] . "</td>";
     echo "</tr>";
-    echo "<td> Contact :</td>";
+    echo "<td> Date :</td>";
     echo "<td>" . $row['fldappointmentContact'] . "</td>";
     echo "</tr>";
     echo "<td> Time:</td>";

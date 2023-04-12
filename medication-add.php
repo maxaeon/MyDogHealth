@@ -83,6 +83,8 @@
                 <label for="fldmedicationNotes">Notes</label>
                 <input type="text" class="form-control" name="txtmedicationNotes" id="txtmedicationNotes">
                 </p>
+                <p><label for="fldmedicationDog">Dogs on this Medication</label>
+                <input type="text" class="form-control" name="txtmedicationDog" id="txtmedicationDog"></p>
         
 <p>&nbsp;</p>
 <p>

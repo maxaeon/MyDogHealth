@@ -8,7 +8,7 @@ include 'db.php';
 
 
     echo "</tr>";
-    echo "<td> Food Name:</td>";
+    echo "<td> <b>Food Name:</td>";
     echo "<td>" . $row['fldfoodName'] . "</td>";
     echo "</tr>";
     echo "<td> Brand:</td>";
@@ -20,11 +20,11 @@ include 'db.php';
     echo "<td> Frequency:</td>";
     echo "<td>" . $row['fldfoodFrequency'] . "</td>";
     echo "</tr>";
-    echo "<td> Is this food a favorite?</td>";
-    echo "<td>" . $row['fldfoodFavorite'] . "</td>";
-    echo "</tr>";
     echo "<td> Notes:</td>";
     echo "<td>" . $row['fldfoodNotes'] . "</td>";
+    echo "</tr>";
+    echo "<td> Dogs Eating this Food:</td>";
+    echo "<td>" . $row['fldfoodDog'] . "</td>";
 
    
     echo "</tr>";

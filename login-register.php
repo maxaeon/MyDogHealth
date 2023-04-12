@@ -61,7 +61,7 @@
         <div class="info text-center">
             <h6>New Users: </h6>
 <p><a href="handler-add.php">Register</a>
-                    </a>
+                    </a><br><br>This application does not share information with third parties. See our <a href="terms.html">Terms and Conditions Page</a> for more information.
                   </div>
             </form>
         </div>

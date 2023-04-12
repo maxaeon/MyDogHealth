@@ -7,7 +7,7 @@ include 'db.php';
 
 
     echo "</tr>";
-    echo "<td> Clinic Name:</td>";
+    echo "<td> <b>Clinic Name:</td>";
     echo "<td>" . $row['fldvetClinic'] . "</td>";
     echo "</tr>";
     echo "<td> Address:</td>";

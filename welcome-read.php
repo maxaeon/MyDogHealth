@@ -6,7 +6,7 @@ include 'db.php';
   while($row = $result->fetch_assoc()) {
     echo "<tr>";
 
-      echo "<td> Dog Name:</td>";
+      echo "<td><b> Dog Name:</td>";
         echo "<td>" . $row['flddogName'] . "</td>";
         echo "</tr>";
         

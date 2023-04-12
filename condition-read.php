@@ -7,7 +7,7 @@ include 'db.php';
 
 
     echo "</tr>";
-    echo "<td> Condition:</td>";
+    echo "<td> <b>Condition:</td>";
     echo "<td>" . $row['fldconditionName'] . "</td>";
     echo "</tr>";
     echo "<td> Date Diagnosed:</td>";
@@ -24,7 +24,9 @@ include 'db.php';
     echo "</tr>";
     echo "<td> Notes:</td>";
     echo "<td>" . $row['fldconditionNotes'] . "</td>";
-  
+    echo "</tr>";
+    echo "<td> Dogs with this Condition:</td>";
+    echo "<td>" . $row['fldconditionDog'] . "</td>";
     
    echo "</tr>";
     

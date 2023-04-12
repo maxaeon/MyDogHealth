@@ -15,10 +15,10 @@
   <!-- header part start -->
   <section id="header">
     <div class="hamburger-menu">
-      <button class="hamburger-toggle">
+      <button class="hamburger-toggle"><a href="menu.html">
         <span class="hamburger-bar"></span>
         <span class="hamburger-bar"></span>
-        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span></a>
       </button>
     </div>
   </section>
@@ -62,10 +62,7 @@
 <p>
   <label for="flddogDOB">Dog Date of Birth</label>
   <input type="date" class="form-control" name="txtdogDOB" id="txtdogDOB">
-  </p><p>
-    <label for="flddogAgeInYears">Dog Age in Years</label>
-    <input type="text" class="form-control" name="txtdogAgeInYears" id="txtdogAgeInYears">
-    </p><p>
+</p><p>
       <label for="flddogBreed">Dog Breed</label>
       <input type="text" class="form-control" name="txtdogBreed" id="txtdogBreed">
       </p><p>

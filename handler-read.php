@@ -13,7 +13,9 @@ include 'db.php';
           echo '<td><input type="text" class="form-control" name="handlerEmail" value="'.$row['fldhandlerEmail'].'"></td>';
           echo '<td><input type="text" class="form-control" name="handlerPassword" value="'.$row['fldhandlerPassword'].'"></td>';
           echo '<td><input type="text" class="form-control" name="handlerPhone" value="'.$row['fldhandlerPhone'].'"></td>';
-          echo '<td><input type="text" class="form-control" name="handlerAddress" value="'.$row['fldhandlerAddress'].'"></td>';
+          echo '<td><input type="text" class="form-control" name="handlerAddress1" value="'.$row['fldhandlerAddress1'].'"></td>';
+          echo '<td><input type="text" class="form-control" name="handlerAddress2" value="'.$row['fldhandlerAddress2'].'"></td>';
+          echo '<td><input type="text" class="form-control" name="handlerAddress3" value="'.$row['fldhandlerAddress3'].'"></td>';
           echo '<td><input type="text" class="form-control" name="handlerNotes" value="'.$row['fldhandlerNotes'].'"></td>';
   
           echo '<td><button type="submit" class="btn btn-primary">Save</button></td>';
@@ -37,9 +39,15 @@ include 'db.php';
     echo "<td> Phone:</td>";
     echo "<td>" . $row['fldhandlerPhone'] . "</td>";
                 echo "</tr>";
-    echo "<td> Address:</td>";
-    echo "<td>" . $row['fldhandlerAddress'] . "</td>";
+    echo "<td> Address Line 1:</td>";
+    echo "<td>" . $row['fldhandlerAddress1'] . "</td>";
                 echo "</tr>";
+                echo "<td> Address Line 2:</td>";
+                echo "<td>" . $row['fldhandlerAddress2'] . "</td>";
+                            echo "</tr>";
+                            echo "<td> Address Line 3:</td>";
+                            echo "<td>" . $row['fldhandlerAddress3'] . "</td>";
+                                        echo "</tr>";
     echo "<td> Notes:</td>";
     echo "<td>" . $row['fldhandlerNotes'] . "</td>";
 
