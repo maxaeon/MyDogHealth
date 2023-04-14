@@ -60,8 +60,16 @@
 <input type="text" class="form-control" name="txtvetClinic" id="txtvetClinic">
 </p>
 <p>
-  <label for="fldvetAddress">Veterinarian Address</label>
+  <label for="fldvetAddress">Veterinarian Address Line 1</label>
   <input type="text" class="form-control" name="txtvetAddress" id="txtvetAddress">
+  </p>
+  <p>
+  <label for="fldvetAddress2">Veterinarian Address Line 2</label>
+  <input type="text" class="form-control" name="txtvetAddress2" id="txtvetAddress2">
+  </p>
+  <p>
+  <label for="fldvetAddress3">Veterinarian Address Line 3</label>
+  <input type="text" class="form-control" name="txtvetAddress3" id="txtvetAddress3">
   </p><p>
     <label for="fldvetPhone">Phone Number</label>
     <input type="text" class="form-control" name="txtvetPhone" id="txtvetPhone">
