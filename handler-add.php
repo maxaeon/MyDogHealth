@@ -87,7 +87,7 @@
         </p>
     <p>
     <label for="fldhandlerPhone">Phone</label>
-    <input type="text" class="form-control" name="txthandlerPhone" id="txthandlerPhone">
+    <input type="tel" class="form-control" name="txthandlerPhone" id="txthandlerPhone">
     </p>
     <p>
   <label for="fldhandlerAddress1">Address Line 1</label>

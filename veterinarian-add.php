@@ -82,7 +82,7 @@
   <input type="text" class="form-control" name="txtvetAddress3" id="txtvetAddress3">
   </p><p>
     <label for="fldvetPhone">Phone Number</label>
-    <input type="text" class="form-control" name="txtvetPhone" id="txtvetPhone">
+    <input type="tel" class="form-control" name="txtvetPhone" id="txtvetPhone">
     </p><p>
       <label for="fldvetEmail">Veterinarian Email</label>
       <input type="text" class="form-control" name="txtvetEmail" id="txtvetEmail">
