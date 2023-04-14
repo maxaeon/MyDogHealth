@@ -24,6 +24,17 @@
   </section>
   <!-- header part end -->
 ​
+
+<section class="">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-12"><br>
+        <input type="button" value="Return to Previous Page" onclick="window.history.back()" /> 
+<p><br></p></div>
+      </div>
+    </div>
+  </section>
+
   <section class="pt-5">
     <div class="container">
       <div class="row">
