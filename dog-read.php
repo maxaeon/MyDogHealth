@@ -39,7 +39,7 @@ include 'db.php';
         echo "<td> Male or Female? </td>";
         echo "<td>" . $row['flddogSex'] . "</td>";
         echo "</tr>";
-        echo "<td> Weight in Pounds: </td>";
+        echo "<td> Weight (in pounds unless otherwise specified): </td>";
         echo "<td>" . $row['flddogWeightInPounds'] . "</td>";    
         echo "</tr>";
         echo "<td> Spayed or Neutered? </td>";

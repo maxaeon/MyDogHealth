@@ -69,7 +69,7 @@
         <label for="flddogSex">Dog Sex</label>
         <input type="boolean" class="form-control" name="txtdogSex" id="txtdogSex">
         </p><p>
-          <label for="flddogWeightInPounds">Dog Weight in Pounds</label>
+          <label for="flddogWeightInPounds">Dog Weight (in Pounds unless otherwise specified)</label>
           <input type="text" class="form-control" name="txtdogWeightInPounds" id="txtdogWeightInPounds">
           </p><p>
             <label for="flddogSterilized">Spayed or Neutered?</label>
