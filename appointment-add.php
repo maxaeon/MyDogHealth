@@ -61,6 +61,10 @@
 </p><p>
     <label for="fldappointmentLocation">Appointment Location</label>
     <input type="text" class="form-control" name="txtappointmentLocation" id="txtappointmentLocation">
+    </p>
+    <p>
+    <label for="fldappointmentDog">Dogs</label>
+    <input type="text" class="form-control" name="txtappointmentDog" id="txtappointmentDog">
     </p><p>
       <label for="fldappointmentContact">Appointment Date</label>
       <input type="text" class="form-control" name="txtappointmentContact" id="txtappointmentContact">
