@@ -6,8 +6,8 @@ include 'db.php';
   while($row = $result->fetch_assoc()) {
     echo "<tr>";
 
-      echo "<td><br><b> Dog Name:</td>";
-        echo "<td><br>" . $row['flddogName'] . "</td>";
+      //echo "<td><br><b> Dog Name:</td>";
+        echo "<td><br><b>" . $row['flddogName'] . "</td>";
         echo "</tr>";
         
    // echo '<td><a class="btn btn-primary" href="index.php?id=' . $row['DogId'] . '" role="button">Update</a></td>';
