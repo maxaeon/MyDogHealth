@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 15, 2023 at 05:31 PM
+-- Generation Time: Apr 15, 2023 at 10:37 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -36,6 +36,7 @@ CREATE TABLE `tbl_appointment` (
   `fldappointmentTime` time NOT NULL,
   `fldappointmentRequiredDocs` varchar(150) NOT NULL,
   `fldappointmentCost` varchar(50) NOT NULL,
+  `fldappointmentVaccination` varchar(150) NOT NULL,
   `fldappointmentNotes` varchar(150) NOT NULL,
   `fldappointmentHandler` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -44,8 +45,8 @@ CREATE TABLE `tbl_appointment` (
 -- Dumping data for table `tbl_appointment`
 --
 
-INSERT INTO `tbl_appointment` (`AppointmentId`, `fldappointmentTitle`, `fldappointmentDog`, `fldappointmentLocation`, `fldappointmentContact`, `fldappointmentTime`, `fldappointmentRequiredDocs`, `fldappointmentCost`, `fldappointmentNotes`, `fldappointmentHandler`) VALUES
-(6, 'Yearly Checkup and Vaccinations', 'Sophia and Buddy', 'Reese Veterinary Clinic', '2023-06-01', '12:30:00', '', '$50 each', 'Sophia may need to be sedated to get her nails trimmed, so she needs to fast for 12 hours before the appointment', '');
+INSERT INTO `tbl_appointment` (`AppointmentId`, `fldappointmentTitle`, `fldappointmentDog`, `fldappointmentLocation`, `fldappointmentContact`, `fldappointmentTime`, `fldappointmentRequiredDocs`, `fldappointmentCost`, `fldappointmentVaccination`, `fldappointmentNotes`, `fldappointmentHandler`) VALUES
+(6, 'Yearly Checkup and Vaccinations', 'Sophia and Buddy', 'Reese Veterinary Clinic', '2023-06-01', '12:30:00', '', '$50 each', '', 'Sophia may need to be sedated to get her nails trimmed, so she needs to fast for 12 hours before the appointment', '');
 
 -- --------------------------------------------------------
 
@@ -256,7 +257,7 @@ ALTER TABLE `tbl_veterinarian`
 -- AUTO_INCREMENT for table `tbl_appointment`
 --
 ALTER TABLE `tbl_appointment`
-  MODIFY `AppointmentId` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `AppointmentId` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `tbl_condition`
