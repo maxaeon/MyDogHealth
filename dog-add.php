@@ -85,7 +85,7 @@
             <label for="flddogSterilized">Spayed or Neutered?</label>
             <input type="boolean" class="form-control" name="txtdogSterilized" id="txtdogSterilized">
             </p><p>
-              <label for="flddogMicrochip">Microchip?</label>
+              <label for="flddogMicrochip">Microchip? Leave blank if not applicable</label>
               <input type="text" class="form-control" name="txtdogMicrochip" id="txtdogMicrochip">
               </p><p>
                 <label for="flddogNotes">Notes</label>

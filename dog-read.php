@@ -45,7 +45,7 @@ include 'db.php';
         echo "<td> Spayed or Neutered? </td>";
         echo "<td>" . $row['flddogSterilized'] . "</td>";
         echo "</tr>"; 
-        echo "<td>Microchip? Leave blank if not applicable </td>";
+        echo "<td>Microchip? </td>";
         echo "<td>" . $row['flddogMicrochip'] . "</td>";    
         echo "</tr>";
         echo "<td> Notes: </td>";

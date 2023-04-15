@@ -33,7 +33,7 @@ include 'db.php';
     echo "<td> Email:</td>";      
     echo "<td>" . $row['fldhandlerEmail'] . "</td>";
                 echo "</tr>";
-    echo "<td> Password:</td>";
+   echo "<td> Password:</td>";
     echo "<td>" . $row['fldhandlerPassword'] . "</td>";
                 echo "</tr>";
     echo "<td> Phone:</td>";

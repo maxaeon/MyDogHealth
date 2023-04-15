@@ -79,11 +79,11 @@
       </p>
       <p>
         <label for="fldhandlerPassword">Password*</label>
-        <input type="text" class="form-control" name="txthandlerPassword" id="txthandlerPassword">
+        <input type="password" class="form-control" name="txthandlerPassword" id="txthandlerPassword">
         </p>
                 <p>
         <label for="fldhandlerPasswordConfirm">Confirm Password*</label>
-        <input type="text" class="form-control" name="txthandlerPasswordConfirm" id="txthandlerPasswordCoonfirm">
+        <input type="password" class="form-control" name="txthandlerPasswordConfirm" id="txthandlerPasswordCoonfirm">
         </p>
     <p>
     <label for="fldhandlerPhone">Phone <br>(xxx)xxx-xxxx</label>
