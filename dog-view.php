@@ -74,9 +74,8 @@
 <section>
 <div class="container text-center">
       <div class="row">
-        <div class="col-lg-12">
-<td><a class="btn btn-primary" href="" role="button">Update</a></td>
-<td><a class="btn btn-danger" href="" role="button">Delete</a></td>
+       <div class="col-lg-12">
+
 </tr><br><br>
 <td><a class="btn btn-secondary" href="medication-view.php?id=' . $row['DogId'] . '" role="button">Medications</a></td>
 <td><a class="btn btn-secondary" href="food-view.php?id=' . $row['DogId'] . '" role="button">Food</a></td>
@@ -90,7 +89,7 @@
     <div class="container text-center">
       <div class="row">
         <div class="col-lg-12">
-<h3><a href="dog-add.php">Add New</a>
+<h3><br><a href="dog-add.php">Add New</a><br>
 </div>
       </div>
     </div>

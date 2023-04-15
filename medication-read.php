@@ -35,6 +35,9 @@ include 'db.php';
     echo "<td>" . $row['fldmedicationDog'] . "</td>";
     
     echo "</tr>";
+    echo '<td><a class="btn btn-primary" href="" role="button">Update</a></td>';
+  
+echo '<td><a class="btn btn-danger" href="" role="button">Delete</a></td>';
   }
   $conn->close();
 ?>

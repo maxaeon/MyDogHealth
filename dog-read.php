@@ -10,7 +10,7 @@ include 'db.php';
         echo '<form class="form-inline m-2" action="dog-update.php" method="POST">';
         echo '<td><input type="text" class="form-control" name="dogname" value="'.$row['flddogName'].'"></td>';
         echo '<td><input type="number" class="form-control" name="dogDOB" value="'.$row['flddogDOB'].'"></td>';
-        echo '<td><input type="text" class="form-control" name="dogageinyears" value="'.$row['flddogAgeInYears'].'"></td>';
+        //echo '<td><input type="text" class="form-control" name="dogageinyears" value="'.$row['flddogAgeInYears'].'"></td>';
         echo '<td><input type="text" class="form-control" name="dogbreed" value="'.$row['flddogBreed'].'"></td>';
         echo '<td><input type="text" class="form-control" name="dogsex" value="'.$row['fldDogSex'].'"></td>';
         echo '<td><input type="text" class="form-control" name="dogweightinpounds" value="'.$row['flddogWeightInPounds'].'"></td>';
@@ -30,9 +30,9 @@ include 'db.php';
         echo "<td> Date of Birth:</td>";
         echo "<td>" . $row['flddogDOB'] . "</td>";
         echo "</tr>";
-        echo "<td> Age in Years:</td>";
-        echo "<td>" . $row['flddogAgeInYears'] . "</td>";
-        echo "</tr>";
+        //echo "<td> Age in Years:</td>";
+        //echo "<td>" . $row['flddogAgeInYears'] . "</td>";
+        //echo "</tr>";
         echo "<td> Breed:</td>";
         echo "<td>" . $row['flddogBreed'] . "</td>";    
         echo "</tr>";
@@ -52,9 +52,9 @@ include 'db.php';
         echo "<td>" . $row['flddogNotes'] . "</td>";
         echo "</tr>";
 
-   // echo '<td><a class="btn btn-primary" href="index.php?id=' . $row['DogId'] . '" role="button">Update</a></td>';
+    echo '<td><a class="btn btn-primary" href="" role="button">Update</a></td>';
       }
-    //echo '<td><a class="btn btn-danger" href="dog-delete.php?id=' . $row['DogId'] . '" role="button">Delete</a></td>';
+    echo '<td><a class="btn btn-danger" href="" role="button">Delete</a></td>';
     
 
     echo "</tr>";    echo "</tr>";
