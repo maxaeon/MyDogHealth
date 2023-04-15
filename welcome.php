@@ -59,7 +59,7 @@
 <section class="">
   <div class="container text-center">
     <div class="row">
-      <div class="col-lg-12">
+      <div class="col-lg-12"><h5><br><br>My Dogs</h5>
 <table class="table">
   <tbody>
     <?php include 'welcome-read.php'; ?>
