@@ -86,7 +86,7 @@
         <input type="text" class="form-control" name="txthandlerPasswordConfirm" id="txthandlerPasswordCoonfirm">
         </p>
     <p>
-    <label for="fldhandlerPhone">Phone</label>
+    <label for="fldhandlerPhone">Phone <br>(xxx)xxx-xxxx</label>
     <input type="tel" class="form-control" name="txthandlerPhone" id="txthandlerPhone">
     </p>
     <p>

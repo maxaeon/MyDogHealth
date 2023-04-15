@@ -81,7 +81,7 @@
   <label for="fldvetAddress3">Veterinarian Address Line 3</label>
   <input type="text" class="form-control" name="txtvetAddress3" id="txtvetAddress3">
   </p><p>
-    <label for="fldvetPhone">Phone Number</label>
+    <label for="fldvetPhone">Phone Number<br>(xxx)xxx-xxxx</label>
     <input type="tel" class="form-control" name="txtvetPhone" id="txtvetPhone">
     </p><p>
       <label for="fldvetEmail">Veterinarian Email</label>
