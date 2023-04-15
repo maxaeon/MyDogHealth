@@ -27,7 +27,7 @@ include 'db.php';
       echo "<td> <b>Dog Name:<b></td>";
         echo "<td>" . $row['flddogName'] . "</td>";
         echo "</tr>";
-        echo "<td> Date of Birth (YYYY/MM/DD):</td>";
+        echo "<td> Date of Birth:</td>";
         echo "<td>" . $row['flddogDOB'] . "</td>";
         echo "</tr>";
         //echo "<td> Age in Years:</td>";

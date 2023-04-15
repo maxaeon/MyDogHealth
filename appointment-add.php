@@ -77,12 +77,12 @@
     <label for="fldappointmentDog">Dogs</label>
     <input type="text" class="form-control" name="txtappointmentDog" id="txtappointmentDog">
     </p><p>
-      <label for="fldappointmentContact">Appointment Date (YYYY-MM-DD)</label>
-      <input type="text" class="form-control" name="txtappointmentContact" id="txtappointmentContact">
+      <label for="fldappointmentContact">Appointment Date</label>
+      <input type="date" class="form-control" name="txtappointmentContact" id="txtappointmentContact">
       </p>
 <p>
-  <label for="fldappointmentTime">Appointment Time  (HH:MM:SS)</label>
-  <input type="datetime" class="form-control" name="txtappointmentTime" id="txtappointmentTime">
+  <label for="fldappointmentTime">Appointment Time</label>
+  <input type="time" class="form-control" name="txtappointmentTime" id="txtappointmentTime">
   </p><p>
         <label for="fldappointmentRequiredDocs">Required Documents</label>
         <input type="boolean" class="form-control" name="txtappointmentRequiredDocs" id="txtappointmentRequiredDocs">

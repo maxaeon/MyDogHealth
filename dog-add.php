@@ -70,7 +70,7 @@
 <input type="text" class="form-control" name="txtdogName" id="txtdogName">
 </p>
 <p>
-  <label for="flddogDOB">Dog Date of Birth (YYYY/MM/DD)</label>
+  <label for="flddogDOB">Dog Date of Birth</label>
   <input type="date" class="form-control" name="txtdogDOB" id="txtdogDOB">
 </p><p>
       <label for="flddogBreed">Dog Breed</label>
