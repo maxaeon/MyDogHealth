@@ -8,8 +8,8 @@ include 'db.php';
 
 
     echo "</tr>";
-    echo "<td> <b>Food Name:</td>";
-    echo "<td>" . $row['fldfoodName'] . "</td>";
+    echo "<td><br> <b>Food Name:</td>";
+    echo "<td><br>" . $row['fldfoodName'] . "</td>";
     echo "</tr>";
     echo "<td> Brand:</td>";
     echo "<td>" . $row['fldfoodBrand'] . "</td>";

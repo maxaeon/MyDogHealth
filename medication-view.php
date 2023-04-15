@@ -70,11 +70,11 @@
 </div>
 </section>
 
-  <section>
+<section>
 <div class="container text-center">
       <div class="row">
         <div class="col-lg-12">
-
+<p><br><br></P>
       </div>
     </div>
 </section>
@@ -89,7 +89,14 @@
     </div>
   </section>
 
-
+  <section>
+<div class="container text-center">
+      <div class="row">
+        <div class="col-lg-12">
+<p><br><br></P>
+      </div>
+    </div>
+</section>
   <section>
   <div class="row m-0">
     <div class="col-lg-3 bottom-btn">

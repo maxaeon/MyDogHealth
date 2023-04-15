@@ -7,8 +7,8 @@ include 'db.php';
 
 
     echo "</tr>";
-    echo "<td><b> Appointment Title:</td>";
-    echo "<td>" . $row['fldappointmentTitle'] . "</td>";
+    echo "<td><br><b> Appointment Title:</td>";
+    echo "<td><br>" . $row['fldappointmentTitle'] . "</td>";
     echo "</tr>";
     echo "<td>  Dogs:</td>";
     echo "<td>" . $row['fldappointmentDog'] . "</td>";

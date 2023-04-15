@@ -7,8 +7,8 @@ include 'db.php';
 
 
     echo "</tr>";
-    echo "<td> <b>Condition:</td>";
-    echo "<td>" . $row['fldconditionName'] . "</td>";
+    echo "<td> <br><b>Condition:</td>";
+    echo "<td><br>" . $row['fldconditionName'] . "</td>";
     echo "</tr>";
     echo "<td> Date Diagnosed:</td>";
     echo "<td>" . $row['fldconditionDateDiagnosed'] . "</td>";

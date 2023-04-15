@@ -23,9 +23,9 @@ include 'db.php';
         echo '</form>';
       }} else {
 
-        echo "</tr>";        echo "<br>";    
-      echo "<td> <b>Dog Name:<b></td>";
-        echo "<td>" . $row['flddogName'] . "</td>";
+        echo "</tr>";            
+      echo "<td> <br><b>Dog Name:<b></td>";
+        echo "<td><br>" . $row['flddogName'] . "</td>";
         echo "</tr>";
         echo "<td> Date of Birth:</td>";
         echo "<td>" . $row['flddogDOB'] . "</td>";
@@ -45,7 +45,7 @@ include 'db.php';
         echo "<td> Spayed or Neutered? </td>";
         echo "<td>" . $row['flddogSterilized'] . "</td>";
         echo "</tr>"; 
-        echo "<td>Microchip? </td>";
+        echo "<td>Microchip? '0' will display if not applicable</td>";
         echo "<td>" . $row['flddogMicrochip'] . "</td>";    
         echo "</tr>";
         echo "<td> Notes: </td>";
