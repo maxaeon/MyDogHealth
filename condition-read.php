@@ -8,7 +8,10 @@ include 'db.php';
 
     echo "</tr>";
     echo "<td> <br><b>Condition:</td>";
-    echo "<td><br>" . $row['fldconditionName'] . "</td>";
+    echo "<td><br><b>" . $row['fldconditionName'] . "</td>";
+    echo "</tr>";
+    echo "<td> Dog(s):</td>";
+    echo "<td>" . $row['fldconditionDog'] . "</td>";
     echo "</tr>";
     echo "<td> Date Diagnosed:</td>";
     echo "<td>" . $row['fldconditionDateDiagnosed'] . "</td>";
@@ -25,10 +28,7 @@ include 'db.php';
     echo "<td> Notes:</td>";
     echo "<td>" . $row['fldconditionNotes'] . "</td>";
     echo "</tr>";
-    echo "<td> Dogs with this Condition:</td>";
-    echo "<td>" . $row['fldconditionDog'] . "</td>";
-    
-   echo "</tr>";
+
    echo '<td><a class="btn btn-primary" href="" role="button">Update</a></td>';
   
 echo '<td><a class="btn btn-danger" href="" role="button">Delete</a></td>';

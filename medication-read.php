@@ -8,9 +8,12 @@ include 'db.php';
 
     echo "</tr>";
     echo "<td><br><b> Medication Name:</td>";
-    echo "<td><br>" . $row['fldmedicationName'] . "</td>";
+    echo "<td><br><b>" . $row['fldmedicationName'] . "</td>";
     echo "</tr>";
-    echo "<td> Start Date:</td>";
+    echo "<td>Dog(s): </td>";
+    echo "<td>" . $row['fldmedicationDog'] . "</td>";
+    echo "</tr>";
+   echo "<td> Start Date:</td>";
     echo "<td>" . $row['fldmedicationStartDate'] . "</td>";
     echo "</tr>";
     echo "<td> End Date:</td>";
@@ -30,9 +33,7 @@ include 'db.php';
     echo "</tr>";
     echo "<td> Notes:</td>";
     echo "<td>" . $row['fldmedicationNotes'] . "</td>";
-    echo "</tr>";
-    echo "<td>Dogs on this Medication: </td>";
-    echo "<td>" . $row['fldmedicationDog'] . "</td>";
+
     
     echo "</tr>";
     echo '<td><a class="btn btn-primary" href="" role="button">Update</a></td>';

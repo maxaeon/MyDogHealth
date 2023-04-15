@@ -11,6 +11,9 @@ include 'db.php';
     echo "<td><br> <b>Food Name:</td>";
     echo "<td><br>" . $row['fldfoodName'] . "</td>";
     echo "</tr>";
+    echo "<td> Dogs Eating this Food:</td>";
+    echo "<td>" . $row['fldfoodDog'] . "</td>";
+    echo "</tr>";
     echo "<td> Brand:</td>";
     echo "<td>" . $row['fldfoodBrand'] . "</td>";
     echo "</tr>";
@@ -23,8 +26,7 @@ include 'db.php';
     echo "<td> Notes:</td>";
     echo "<td>" . $row['fldfoodNotes'] . "</td>";
     echo "</tr>";
-    echo "<td> Dogs Eating this Food:</td>";
-    echo "<td>" . $row['fldfoodDog'] . "</td>";
+
 
    
     echo "</tr>";

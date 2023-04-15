@@ -89,7 +89,11 @@
         </p><p>
           <label for="fldappointmentCost">Appointment Cost</label>
           <input type="text" class="form-control" name="txtappointmentCost" id="txtappointmentCost">
-          </p><p>
+</p>
+          <p><p>
+          <label for="fldappointmentVaccination">Scheduled Vaccinations</label>
+          <input type="text" class="form-control" name="txtappointmentVaccination" id="txtappointmentVaccination">
+</p>
                 <label for="fldappointmentNotes">Notes</label>
                 <input type="text" class="form-control" name="txtappointmentNotes" id="txtappointmentNotes">
                 </p>
