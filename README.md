@@ -12,9 +12,11 @@ Step 1. <a href="https://www.apachefriends.org/download.html">Download XAMPP</a>
 <br><br>
 Step 2. <a href="https://www.geeksforgeeks.org/how-to-run-php-programs/">Setup</a><br>![setupphp](https://user-images.githubusercontent.com/87254760/228097885-ee8f6bd2-c4b9-44bc-91ab-558e50bfdecf.png)
 <br>
+    give XAMPP permission to use private network when prompted<br>
     phpMyAdmin  username: myUser <br>
                 password: myPasswd<br>
-    start the apache and mysql modules<br><br>
+    start the apache and mysql modules<br>
+    <br>
 Step 3. Import <a href="https://github.com/maxaeon/MyDogHealth/blob/maxaeon-CR/db/myschema.sql">the myschema db file</a> to phpMyAdmin <br>
   make sure MyUser has full privileges for the myschema database<br>![Screenshot (50)](https://user-images.githubusercontent.com/87254760/228098359-d0e64986-3d1b-419e-a397-f887b29be68d.png)
 <br><br>
