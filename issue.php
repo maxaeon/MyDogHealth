@@ -53,8 +53,9 @@
 		  <p>Non-functional features include:<br>
 		-update<br>
 	-delete<br>
--login/logout
--email validation and other format requirements<br><br>
+-login/logout<br>
+-email validation <br>
+-other<br><br>
 </p><h4>To update or delete your entries, see <a href="http://localhost/phpmyadmin/index.php">phpMyAdmin</a></h4>
         </div>
       </div>
