@@ -55,7 +55,7 @@
                 </p>
            </div>
            <div class="text-center py-3">
-            <a href="login-register.php">
+            <a href="issue.php">
               <button type="button" class="btn btn-danger">Yes, Delete Account</button>
             </a>
           <a href="dog-view.php">
