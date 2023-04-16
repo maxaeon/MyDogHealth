@@ -8,4 +8,4 @@
 	header('Location: '.$uri.'/dashboard/');
 	exit;
 ?>
-Something is wrong with the XAMPP installation :-(
+This feature is not yet functional :-(

@@ -100,7 +100,7 @@
   <input type="text" class="form-control" name="txthandlerAddress3" id="txthandlerAddress3">
   </p>
                 <p>
-                <label for="fldhandlerNotes">Notes</label>
+                <label for="fldhandlerNotes">Notes<br>Example: "has a service dog"</label>
                 <input type="text" class="form-control" name="txthandlerNotes" id="txthandlerNotes">
                 </p>
                 <p>'*' indicates a required field</p>

@@ -52,9 +52,9 @@ include 'db.php';
         echo "<td>" . $row['flddogNotes'] . "</td>";
         echo "</tr>";
 
-    echo '<td><a class="btn btn-primary" href="" role="button">Update</a></td>';
+    echo '<td><a class="btn btn-primary" href="issue.php" role="button">Update</a></td>';
       }
-    echo '<td><a class="btn btn-danger" href="" role="button">Delete</a></td>';
+    echo '<td><a class="btn btn-danger" href="issue.php" role="button">Delete</a></td>';
     
 
     echo "</tr>";    echo "</tr>";
