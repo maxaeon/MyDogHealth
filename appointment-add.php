@@ -85,7 +85,7 @@
   <input type="time" class="form-control" name="txtappointmentTime" id="txtappointmentTime">
   </p><p>
         <label for="fldappointmentRequiredDocs">Required Documents</label>
-        <input type="boolean" class="form-control" name="txtappointmentRequiredDocs" id="txtappointmentRequiredDocs">
+        <input type="text" class="form-control" name="txtappointmentRequiredDocs" id="txtappointmentRequiredDocs">
         </p><p>
           <label for="fldappointmentCost">Appointment Cost</label>
           <input type="text" class="form-control" name="txtappointmentCost" id="txtappointmentCost">

@@ -14,7 +14,7 @@ $txtappointmentDog = $_POST['txtappointmentDog'];
 
 
 // database insert SQL code
-$sql = "INSERT INTO tbl_appointment (fldappointmentTitle, fldappointmentLocation, fldappointmentContact, fldappointmentTime, fldappointmentRequiredDocs, fldappointmentCost, fldappointmentVaccination, fldappointmentNotes, fldappointmentDog) VALUES ('$txtappointmentTitle', '$txtappointmentLocation', '$txtappointmentContact', '$txtappointmentTime', '$txtappointmentRequiredDocs', '$txtappointmentCost', '$txtappointmentVaccination', '$txtappointmentNotes', '$txtappointmentDog')";
+$sql = "INSERT INTO tbl_appointment (fldappointmentTitle, fldappointmentLocation, fldappointmentContact, fldappointmentTime, fldappointmentRequiredDocs, fldappointmentCost, fldappointmentVaccination, fldappointmentNotes, fldappointmentDog, fldappointmentHandler) VALUES ('$txtappointmentTitle', '$txtappointmentLocation', '$txtappointmentContact', '$txtappointmentTime', '$txtappointmentRequiredDocs', '$txtappointmentCost', '$txtappointmentVaccination', '$txtappointmentNotes', '$txtappointmentDog', '')";
 // insert in database 
 $rs = mysqli_query($con, $sql);
 
