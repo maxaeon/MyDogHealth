@@ -10,6 +10,7 @@ $txtmedicationFrequency = $_POST['txtmedicationFrequency'];
 $txtmedicationMethod = $_POST['txtmedicationMethod'];
 $txtmedicationDoctor = $_POST['txtmedicationDoctor'];
 $txtmedicationNotes = $_POST['txtmedicationNotes'];
+$txtmedicationDog = $_POST['txtmedicationDog'];
 
 //echo "Record to Insert";
 // database insert SQL code
