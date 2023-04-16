@@ -20,8 +20,7 @@ Step 3. Import <a href="https://github.com/maxaeon/MyDogHealth/blob/maxaeon-CR/d
 <br><br>
 Step 4. Download <a href="https://github.com/maxaeon/MyDogHealth">repository files</a> to c:/ > XAMPP > htdocs<br>![Screenshot (49)](https://user-images.githubusercontent.com/87254760/228098185-32b04bab-5956-4480-a37e-1592774faf7b.png)
 <br><br>
-Step 5. Run <a href="http://localhost/login-register.php">localhost/login-register.php</a> and navigate the app <br>Note: login/logout (including email validation, password confirmation, and 'required' fields), update/edit, and delete features are currently non-functional<br>Database information can be edited and deleted through <a href="http://localhost/phpmyadmin/index.php">phpMyAdmin</a><br>![Screenshot (51)](https://user-images.githubusercontent.com/87254760/228098857-d6fa43e1-1e86-413a-a567-757e18bafb1d.png)
-
+Step 5. Run <a href="http://localhost/login-register.php">localhost/login-register.php</a> and navigate the app <br>Note: login/logout (including email validation, password confirmation, and 'required' fields), update/edit, and delete features are currently non-functional<br>Database information can be edited and deleted through <a href="http://localhost/phpmyadmin/index.php">phpMyAdmin</a><br>![Image](https://user-images.githubusercontent.com/87254760/232322839-0afc0ead-ef1f-4c25-8fb8-1ddb0668fd5e.png)
 
 ## Credits
 This project was created by Max, Feroz, Kamal, and Chris. 
